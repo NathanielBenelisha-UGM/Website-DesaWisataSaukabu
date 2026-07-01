@@ -13,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
@@ -186,35 +187,8 @@
       <h2 class="section-title">Keanekaragaman Hayati Saukabu</h2>
       <p style="margin-bottom: 30px; max-width: 650px; line-height: 1.7; color: rgba(22, 35, 31, 0.8);">Selain keindahan bawah laut dan lanskap karst yang ikonik, Kampung Saukabu juga menjadi rumah bagi berbagai satwa liar dan endemik. Berikut adalah beberapa spesies burung eksotis yang berhasil didokumentasikan di sekitar desa.</p>
       
-      <div class="fauna-grid">
-        <div class="fauna-card">
-          <img src="images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-PtilinopusRivoli-WalikDadaPutih.jpeg" alt="Walik Dada Putih">
-          <div class="fauna-info">
-            <h4>Walik Dada Putih</h4>
-            <div class="sc-name">Ptilinopus rivoli</div>
-          </div>
-        </div>
-        <div class="fauna-card">
-          <img src="images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-EclectusRoratus.jpeg" alt="Burung Bayan">
-          <div class="fauna-info">
-            <h4>Burung Bayan</h4>
-            <div class="sc-name">Eclectus roratus</div>
-          </div>
-        </div>
-        <div class="fauna-card">
-          <img src="images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-GeoffroyusGeoffroyi.jpeg" alt="Nuri Pipi-Merah">
-          <div class="fauna-info">
-            <h4>Nuri Pipi-Merah</h4>
-            <div class="sc-name">Geoffroyus geoffroyi</div>
-          </div>
-        </div>
-        <div class="fauna-card">
-          <img src="images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-RhipiduraLeucophrys.jpeg" alt="Kipasan Belang">
-          <div class="fauna-info">
-            <h4>Kipasan Belang</h4>
-            <div class="sc-name">Rhipidura leucophrys</div>
-          </div>
-        </div>
+      <div class="fauna-grid" id="fauna-container">
+        <!-- Fauna cards will be loaded here dynamically from data/fauna.json via CMS -->
       </div>
     </div>
   </section>
@@ -287,68 +261,8 @@
       4. Simpan file — selesai!
       (Tidak perlu belajar coding, cukup ganti teksnya saja)
     ===================================================== -->
-      <div class="news-grid">
-
-        <article class="news-card">
-          <img src="images/KKN-PPM-UGM_Periode2_2026-LandscapePemandanganPiaynemo.jpg"
-            alt="Pemandangan Puncak Piaynemo, Raja Ampat" class="news-img">
-          <div class="news-date">Juli 2026</div>
-          <h3 class="news-title">Website Resmi Kampung Wisata Saukabu Diluncurkan</h3>
-          <p class="news-body">Website resmi Kampung Wisata Saukabu kini hadir untuk memperkenalkan potensi wisata
-            kampung kepada wisatawan lokal maupun mancanegara. Website ini dibangun bersama mahasiswa KKN PPN UGM
-            Periode 2 Tahun 2026 yang sedang bertugas di Saukabu.</p>
-        </article>
-
-        <article class="news-card">
-          <img src="images/KKN-PPM-UGM_Periode2_2026-KunjunganTimKKNKePiaynemo1.jpg"
-            alt="Tim KKN UGM di Puncak Piaynemo" class="news-img">
-          <div class="news-date">Juni 2026</div>
-          <h3 class="news-title">Tim KKN UGM Kunjungi Puncak Piaynemo</h3>
-          <p class="news-body">Mahasiswa KKN PPN UGM Periode 2 melakukan kunjungan ke Puncak Piaynemo — ikon wisata Raja
-            Ampat yang hanya 10–15 menit dari Saukabu. Kunjungan ini sekaligus menjadi bagian dari survei potensi wisata
-            yang akan dipromosikan melalui program KKN.</p>
-        </article>
-
-        <article class="news-card">
-          <img src="images/KKN-PPM-UGM_Periode2_2026-KoordinasiPemetaanDanPemasanganPetaSaukabuAtauPulauFam.jpg"
-            alt="Koordinasi pemetaan wilayah Saukabu bersama warga" class="news-img">
-          <div class="news-date">Juni 2026</div>
-          <h3 class="news-title">Pemetaan Wilayah dan Pemasangan Peta Kampung Saukabu</h3>
-          <p class="news-body">Tim KKN UGM bersama perangkat kampung melakukan koordinasi pemetaan wilayah Desa Saukabu
-            / Pulau Fam. Peta administrasi kampung yang dihasilkan kemudian dipasang sebagai referensi resmi
-            pengelolaan wilayah dan wisata kampung.</p>
-        </article>
-
-        <article class="news-card">
-          <img src="images/KKN-PPM-UGM_Periode2_2026-PerayaanUlangTahunSaukabuKe26-1.jpg"
-            alt="Perayaan HUT Saukabu ke-26 bersama warga dan KKN UGM" class="news-img">
-          <div class="news-date">Juni 2026</div>
-          <h3 class="news-title">Perayaan Hari Ulang Tahun Saukabu ke-26</h3>
-          <p class="news-body">Kampung Wisata Saukabu merayakan hari ulang tahunnya yang ke-26 bersama seluruh warga
-            kampung dan mahasiswa KKN PPN UGM. Perayaan berlangsung meriah di tepi pantai pasir putih Saukabu dengan
-            berbagai kegiatan kebersamaan.</p>
-        </article>
-
-        <article class="news-card">
-          <img src="images/KKN-PPM-UGM_Periode2_2026-PenyerahanMahasiswaDariDosenPembimbingLapanganKeDesaSaukabu.jpg"
-            alt="Penyerahan mahasiswa KKN UGM ke Desa Saukabu" class="news-img">
-          <div class="news-date">Juni 2026</div>
-          <h3 class="news-title">Penyerahan Resmi Mahasiswa KKN UGM ke Kampung Saukabu</h3>
-          <p class="news-body">Dosen Pembimbing Lapangan (DPL) secara resmi menyerahkan mahasiswa KKN PPN UGM Periode 2
-            Tahun 2026 kepada perangkat Kampung Saukabu. Serah terima ini menandai dimulainya program pengabdian
-            masyarakat yang akan berlangsung selama kurang lebih satu bulan.</p>
-        </article>
-
-        <article class="news-card">
-          <img src="images/KKN-PPM-UGM_Periode2_2026-PenyambutanDiDesaPam.jpg"
-            alt="Penyambutan tim KKN UGM di Desa Pam dengan spanduk Amai Pulau Pam" class="news-img">
-          <div class="news-date">Juni 2026</div>
-          <h3 class="news-title">Penyambutan Tim KKN UGM di Desa Pam</h3>
-          <p class="news-body">Seluruh tim mahasiswa KKN PPN UGM Periode 2 Tahun 2026 disambut hangat oleh masyarakat
-            Desa Pam saat tiba dari pelabuhan. Tim membawa misi program "Amai Pulau Pam" sebagai wujud pengabdian nyata
-            untuk memajukan pariwisata dan pemberdayaan masyarakat di kepulauan Raja Ampat.</p>
-        </article>
-
+      <div class="news-grid" id="news-container">
+        <!-- News cards will be loaded here dynamically from data/berita.json via CMS -->
       </div>
     </div>
   </section>
@@ -655,6 +569,64 @@
       if (event.target == albumModal) {
         closeAlbum();
       }
+    }
+
+    // ===== CMS DATA FETCHING =====
+    async function loadCMSData() {
+      try {
+        // Load Fauna
+        const faunaRes = await fetch('data/fauna.json');
+        if (faunaRes.ok) {
+          const faunaData = await faunaRes.json();
+          const faunaContainer = document.getElementById('fauna-container');
+          faunaContainer.innerHTML = '';
+          faunaData.items.forEach(item => {
+            faunaContainer.innerHTML += `
+              <div class="fauna-card fade-up visible">
+                <img src="${item.image}" alt="${item.title}">
+                <div class="fauna-info">
+                  <h4>${item.title}</h4>
+                  <div class="sc-name">${item.sc_name}</div>
+                </div>
+              </div>
+            `;
+          });
+        }
+
+        // Load Berita
+        const beritaRes = await fetch('data/berita.json');
+        if (beritaRes.ok) {
+          const beritaData = await beritaRes.json();
+          const beritaContainer = document.getElementById('news-container');
+          beritaContainer.innerHTML = '';
+          beritaData.items.forEach(item => {
+            beritaContainer.innerHTML += `
+              <article class="news-card fade-up visible">
+                <img src="${item.image}" alt="${item.title}" class="news-img">
+                <div class="news-date">${item.date}</div>
+                <h3 class="news-title">${item.title}</h3>
+                <p class="news-body">${item.body}</p>
+              </article>
+            `;
+          });
+        }
+      } catch (err) {
+        console.error("Error loading CMS data:", err);
+      }
+    }
+    
+    // Call CMS loader
+    loadCMSData();
+
+    // Redirect for Netlify Identity (so users are sent back to site after login)
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
     }
   </script>
 

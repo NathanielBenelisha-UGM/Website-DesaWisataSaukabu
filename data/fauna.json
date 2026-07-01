@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title": "Walik Dada Putih",
+      "sc_name": "Ptilinopus rivoli",
+      "image": "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-PtilinopusRivoli-WalikDadaPutih.jpeg"
+    },
+    {
+      "title": "Burung Bayan",
+      "sc_name": "Eclectus roratus",
+      "image": "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-EclectusRoratus.jpeg"
+    },
+    {
+      "title": "Nuri Pipi-Merah",
+      "sc_name": "Geoffroyus geoffroyi",
+      "image": "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-GeoffroyusGeoffroyi.jpeg"
+    },
+    {
+      "title": "Kipasan Belang",
+      "sc_name": "Rhipidura leucophrys",
+      "image": "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-RhipiduraLeucophrys.jpeg"
+    }
+  ]
+}

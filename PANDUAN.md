@@ -1,126 +1,75 @@
-# 📘 PANDUAN UPDATE WEBSITE SAUKABU
-**Kampung Wisata Saukabu — Waigeo Barat Kepulauan, Raja Ampat**
-*Dibuat oleh KKN PPN UGM 2026*
+# 🚀 Panduan Lengkap Website & CMS Desa Wisata Saukabu
+
+Website ini kini telah dilengkapi dengan **Sistem Admin (CMS)** sehingga perangkat desa dapat dengan mudah menambah/mengedit Berita dan Fauna tanpa perlu menyentuh kode HTML.
 
 ---
 
-## 🗂️ Struktur File Website
+## 1. MENGAKTIFKAN SISTEM ADMIN (CMS) DI NETLIFY
 
-```
-📁 [KKN] WEBSITE SAUKABU/
-│
-├── index.html          ← File utama website (ini yang perlu diedit)
-├── style.css           ← Tampilan/desain (tidak perlu diedit)
-├── PANDUAN.md          ← File panduan ini
-│
-└── 📁 images/          ← Simpan semua foto di sini
-    ├── pantai1.jpg
-    ├── piaynemo.jpg
-    └── ... (foto lainnya)
-```
+Agar halaman admin bisa digunakan, Anda **wajib** mengaktifkan fitur Identity di Netlify:
 
----
+### Langkah A: Aktifkan Netlify Identity
+1. Buka dashboard **Netlify** Anda, pilih website Saukabu.
+2. Di menu atas, pilih **"Site configuration"** > **"Identity"**.
+3. Klik tombol **"Enable Identity"**.
+4. Masih di halaman Identity, cari menu **"Registration"** > Ubah **Registration preferences** menjadi **Invite only** (agar tidak sembarang orang bisa daftar).
 
-## 📸 1. MENAMBAH FOTO KE GALERI
+### Langkah B: Aktifkan Git Gateway
+1. Di menu atas, pilih **"Site configuration"** > **"Identity"** > geser ke bawah cari **"Services"**.
+2. Di bagian **Git Gateway**, klik **"Enable Git Gateway"**.
+3. Ini akan meminta izin untuk menyambungkan Netlify dengan repositori GitHub Anda. Klik izinkan.
 
-### Langkah-langkah:
-1. Simpan foto ke dalam folder `images/`
-2. Buka file `index.html` dengan Notepad
-3. Tekan `Ctrl+F`, cari kata: `GALERI`
-4. Ganti kotak placeholder dengan foto asli
+### Langkah C: Undang Admin (Diri Anda Sendiri)
+1. Di menu atas, klik tab **"Identity"** (di sebelah "Site configuration").
+2. Klik tombol **"Invite users"**.
+3. Masukkan alamat email Anda, lalu kirim.
+4. Buka email Anda, klik link konfirmasi yang diberikan.
+5. Anda akan dibawa ke website Anda (desawisatasaukabu.netlify.app) dengan popup untuk membuat password. Buat password Anda.
 
-### Sebelum (placeholder):
-```html
-<div class="gal-slot"><span>Pasir putih Saukabu</span></div>
-```
-
-### Sesudah (foto asli):
-```html
-<div class="gal-slot"><img src="images/pantai1.jpg" alt="Pantai Saukabu"></div>
-```
-
-### Tambah foto baru:
-Salin dan tempel setelah foto terakhir di galeri:
-```html
-<div class="gal-slot"><img src="images/nama-foto.jpg" alt="Keterangan foto"></div>
-```
+### Cara Menggunakan CMS
+1. Buka: `https://desawisatasaukabu.netlify.app/admin/`
+2. Login menggunakan email dan password yang baru Anda buat.
+3. Anda kini bisa menambah, mengedit, atau menghapus Berita dan Fauna! Setiap perubahan akan otomatis tersimpan ke GitHub dan Netlify akan memperbarui website secara otomatis.
 
 ---
 
-## 📰 2. MENAMBAH BERITA / UPDATE
+## 2. CARA BELI DOMAIN (DesaWisataSaukabu.com)
 
-1. Buka `index.html`
-2. Tekan `Ctrl+F`, cari: `news-grid`
-3. Tempel berita BARU di PALING ATAS (sebelum berita pertama)
+Untuk membuat website terlihat profesional, Anda butuh domain.
 
-### Template:
-```html
-<article class="news-card">
-  <div class="news-date">Agustus 2026</div>
-  <h3 class="news-title">Judul Berita Di Sini</h3>
-  <p class="news-body">Isi berita di sini.</p>
-</article>
-```
+### Opsi Mudah & Bahasa Indonesia (Niagahoster)
+1. Buka **https://www.niagahoster.co.id/**.
+2. Ketik `desawisatasaukabu.com` di kolom pencarian.
+3. Klik "Cek Domain" lalu "Tambah ke Keranjang".
+4. Pilih paket **"Hanya Domain"** (tidak perlu beli hosting, karena hosting sudah pakai Netlify yang jauh lebih cepat dan gratis).
+5. Lanjutkan ke pembayaran (Transfer Bank / QRIS). Biaya sekitar Rp150.000 - Rp200.000 per tahun.
+
+### Cara Menghubungkan Domain ke Netlify
+Setelah domain aktif di Niagahoster:
+1. Buka dashboard Netlify > **"Domain management"**.
+2. Klik **"Add a domain"** > ketik `desawisatasaukabu.com` > Klik Verify.
+3. Netlify akan memberikan 2 atau 4 "Nameserver" (misalnya: `dns1.p01.nsone.net`).
+4. Buka dashboard **Niagahoster**, masuk ke menu pengaturan Domain Anda.
+5. Cari pengaturan **"Nameserver"** atau **"DNS"**.
+6. Ganti Nameserver bawaan Niagahoster dengan Nameserver dari Netlify.
+7. Tunggu beberapa jam (maksimal 24 jam) hingga domain terhubung. Selesai!
 
 ---
 
-## 🎯 3. MENAMBAH ATRAKSI WISATA
+## 3. CARA UPDATE WEBSITE MANUAL (Bagi Developer/Mahasiswa KKN)
 
-Cari `CARA TAMBAH ATRAKSI`, lalu salin dan tempel:
-```html
-<div class="card">
-  <div class="tag">Kategori</div>
-  <h3>Nama Atraksi</h3>
-  <p>Deskripsi singkat.</p>
-</div>
+Jika Anda ingin mengubah tampilan, warna, atau layout, Anda tetap bisa mengedit file `index.html` dan `style.css`.
+
+- Lakukan edit file di komputer.
+- Jika sudah selesai, jalankan perintah ini di Terminal (berada di folder `KKN-WEBSITE_SAUKABU`):
+
+```powershell
+git add .
+git commit -m "Update tampilan"
+git push -u origin main
 ```
 
----
-
-## 🛒 4. MENAMBAH PRODUK
-
-Cari `CARA TAMBAH PRODUK`, lalu salin dan tempel:
-```html
-<div class="prod-item">
-  <div class="name">Nama Produk</div>
-  <div class="desc">deskripsi singkat</div>
-</div>
-```
+Netlify akan otomatis memperbarui website dalam 1-2 menit setelah perintah `git push` selesai.
 
 ---
-
-## 📞 5. UPDATE NOMOR WHATSAPP
-
-1. Cari teks `wa.me/6281234567890`
-2. Ganti angkanya dengan nomor WA yang benar
-3. Format: `62` + nomor tanpa 0 depan
-   - Contoh: `0812-3456-7890` → `6281234567890`
-4. Juga ganti teks `+62 812-XXXX-XXXX` dengan nomor yang benar
-
----
-
-## 🌐 6. CARA UPLOAD KE INTERNET (Gratis)
-
-**Cara termudah — Netlify:**
-1. Buka https://netlify.com dan daftar gratis
-2. Drag-and-drop seluruh folder website ke Netlify
-3. Website langsung online!
-
-**Atau gunakan GitHub Pages:**
-1. Buat akun di https://github.com
-2. Upload semua file ke repository baru
-3. Aktifkan GitHub Pages di Settings
-4. Website tersedia di `https://username.github.io/saukabu`
-
----
-
-## ✅ CHECKLIST UPDATE RUTIN
-
-- [ ] Edit `index.html` sesuai kebutuhan
-- [ ] Simpan file (`Ctrl+S`)
-- [ ] Cek di browser (klik dua kali `index.html`)
-- [ ] Upload ke hosting jika sudah oke
-
----
-
-*Juli 2026 — KKN PPN UGM*
+**Dibuat oleh Tim KKN-PPM UGM Periode 2 "Amai Pulau Pam" (2026)**

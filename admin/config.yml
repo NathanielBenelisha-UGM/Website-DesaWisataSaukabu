@@ -1,0 +1,37 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "website_content"
+    label: "Konten Website"
+    files:
+      - label: "Daftar Berita"
+        name: "berita"
+        file: "data/berita.json"
+        fields:
+          - label: "Kumpulan Berita"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Judul", name: "title", widget: "string"}
+              - {label: "Tanggal Posting (Misal: Juli 2026)", name: "date", widget: "string"}
+              - {label: "Foto", name: "image", widget: "image"}
+              - {label: "Isi Berita Paragraf", name: "body", widget: "text"}
+
+      - label: "Daftar Fauna Ekowisata"
+        name: "fauna"
+        file: "data/fauna.json"
+        fields:
+          - label: "Kumpulan Hewan"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Nama Hewan", name: "title", widget: "string"}
+              - {label: "Nama Ilmiah", name: "sc_name", widget: "string"}
+              - {label: "Foto Hewan", name: "image", widget: "image"}
