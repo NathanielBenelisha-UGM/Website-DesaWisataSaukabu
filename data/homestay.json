@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "name": "Homestay 1", "owner": "Nama Pemilik 1", "description": "Homestay tepi pantai dengan pemandangan laut yang indah.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" },
+    { "name": "Homestay 2", "owner": "Nama Pemilik 2", "description": "Menginap nyaman di rumah warga dengan nuansa kekeluargaan.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" },
+    { "name": "Homestay 3", "owner": "Nama Pemilik 3", "description": "Nikmati suasana kampung pesisir yang tenang dan autentik.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" },
+    { "name": "Homestay 4", "owner": "Nama Pemilik 4", "description": "Homestay keluarga dengan pemandangan sunrise yang memukau.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" },
+    { "name": "Homestay 5", "owner": "Nama Pemilik 5", "description": "Lokasi strategis dekat dermaga dan pantai pasir putih.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" },
+    { "name": "Homestay 6", "owner": "Nama Pemilik 6", "description": "Homestay sederhana dengan suasana keluarga yang hangat.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" },
+    { "name": "Homestay 7", "owner": "Nama Pemilik 7", "description": "Rasakan kehidupan pesisir Raja Ampat dari balik jendela kamar.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" },
+    { "name": "Homestay 8", "owner": "Nama Pemilik 8", "description": "Pilihan tepat untuk wisatawan yang ingin menyatu dengan alam.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" },
+    { "name": "Homestay 9", "owner": "Nama Pemilik 9", "description": "Homestay dengan fasilitas lengkap dan tuan rumah yang ramah.", "facilities": "Kamar bersih, kipas angin, kamar mandi, sarapan", "phone": "6281234567890", "image": "" }
+  ]
+}

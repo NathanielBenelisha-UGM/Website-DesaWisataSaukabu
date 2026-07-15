@@ -24,10 +24,10 @@
       <a href="#beranda" class="logo">Saukabu<span>.</span></a>
       <div class="navlinks" id="navlinks">
         <a href="#tentang">Tentang</a>
-        <a href="#piaynemo">Piaynemo</a>
         <a href="#atraksi">Atraksi</a>
         <a href="#ekowisata">Ekowisata</a>
-        <a href="#produk">Produk</a>
+        <a href="#homestay">Homestay</a>
+        <a href="#umkm">UMKM</a>
         <a href="#berita">Berita</a>
         <a href="#galeri">Galeri</a>
         <a href="#kontak">Kontak</a>
@@ -193,56 +193,26 @@
     </div>
   </section>
 
-  <!-- ===== PRODUK & HOMESTAY ===== -->
-  <section class="split section" id="produk">
+  <!-- ===== HOMESTAY ===== -->
+  <section class="section" id="homestay" style="background:var(--paper);">
     <div class="wrap">
-      <div class="eyebrow">Produk &amp; Tempat Menginap</div>
-      <div class="split-grid">
-        <div class="split-col">
-          <h3>Produk Wisata</h3>
+      <div class="eyebrow">Tempat Menginap</div>
+      <h2 class="section-title">Homestay di Kampung Saukabu</h2>
+      <p style="margin:14px 0 40px; max-width:640px; line-height:1.7; color:rgba(22,35,31,0.75);">Menginap di rumah warga dan rasakan langsung kehidupan pesisir Raja Ampat yang autentik. Hubungi masing-masing pemilik homestay untuk informasi ketersediaan dan harga.</p>
+      <div class="hs-grid" id="homestay-container">
+        <!-- Homestay cards loaded from data/homestay.json -->
+      </div>
+    </div>
+  </section>
 
-          <!-- =====================================================
-          ✏️ CARA TAMBAH PRODUK BARU:
-          Salin blok <div class="prod-item"> ... </div>,
-          tempel setelah item terakhir, lalu ubah nama & deskripsi.
-        ===================================================== -->
-          <div class="prod-item">
-            <div class="name">Virgin Coconut Oil (VCO)</div>
-            <div class="desc">minyak kelapa murni, baik untuk kesehatan</div>
-          </div>
-          <div class="prod-item">
-            <div class="name">Ikan Laut Segar</div>
-            <div class="desc">hasil tangkapan nelayan, bisa dipesan sewaktu-waktu</div>
-          </div>
-          <div class="prod-item">
-            <div class="name">Kelapa Muda</div>
-            <div class="desc">langsung dari kebun warga kampung</div>
-          </div>
-          <div class="prod-item">
-            <div class="name">Anyaman Tangan</div>
-            <div class="desc">tas &amp; topi khas Saukabu buatan ibu-ibu kampung</div>
-          </div>
-
-          <a href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20memesan%20Produk%20Wisata%20Saukabu"
-            target="_blank" class="btn solid" style="margin-top:30px;display:inline-flex;">Pesan Produk Wisata →</a>
-        </div>
-        <div class="split-col" id="homestay">
-          <h3>Homestay Saukabu</h3>
-          <div class="homestay-box">
-            <p>Menginap di homestay milik warga kampung, merasakan langsung suasana kehidupan pesisir Saukabu, dengan
-              pemandangan pantai dan sunrise yang indah tepat di depan homestay.</p>
-            <ul class="homestay-list">
-              <li>✦ Kamar bersih dengan pemandangan laut</li>
-              <li>✦ Sarapan masakan warga kampung</li>
-              <li>✦ Akses internet tersedia</li>
-              <li>✦ Panduan wisata lokal siap membantu</li>
-            </ul>
-            <!-- Tombol WA khusus Homestay -->
-            <a href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20bertanya%20tentang%20Homestay%20Saukabu"
-              target="_blank" class="btn solid" style="margin-top:20px;display:inline-flex;">Tanya Ketersediaan Kamar
-              →</a>
-          </div>
-        </div>
+  <!-- ===== UMKM ===== -->
+  <section class="section" id="umkm" style="background:rgba(22,35,31,0.03);">
+    <div class="wrap">
+      <div class="eyebrow">Produk Lokal</div>
+      <h2 class="section-title">UMKM Kampung Saukabu</h2>
+      <p style="margin:14px 0 40px; max-width:640px; line-height:1.7; color:rgba(22,35,31,0.75);">Dukung perekonomian warga dengan membeli produk-produk lokal asli Saukabu. Hubungi langsung penjual untuk pemesanan.</p>
+      <div class="umkm-grid" id="umkm-container">
+        <!-- UMKM cards loaded from data/umkm.json -->
       </div>
     </div>
   </section>
@@ -355,28 +325,39 @@
       <div class="faq-list">
         <details class="faq-item">
           <summary>Apakah ada homestay di Saukabu?</summary>
-          <p>Ya, tersedia homestay milik warga kampung. Hubungi kami via WhatsApp untuk informasi ketersediaan dan
-            harga.</p>
+          <p>Ya, tersedia 9 homestay milik warga kampung. Kunjungi bagian <a href="#homestay" style="color:var(--coral);">Homestay</a> untuk melihat daftar dan menghubungi langsung pemiliknya via WhatsApp.</p>
         </details>
         <details class="faq-item">
-          <summary>Bagaimana cara ke Saukabu dari Waisai?</summary>
-          <p>Dari Waisai (ibukota Raja Ampat), naik speedboat menuju Saukabu dengan waktu tempuh sekitar 2–2,5 jam. Anda
-            bisa menyewa speedboat atau bergabung dengan kapal reguler.</p>
+          <summary>Apakah ada listrik di Saukabu?</summary>
+          <p>Ada! Listrik di Saukabu menggunakan generator berbahan bakar solar/bensin yang aktif dari pukul <strong>18.00 hingga 06.00</strong>. Di luar jam tersebut, tidak ada aliran listrik, jadi pastikan perangkat Anda terisi penuh di malam hari.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Bagaimana dengan air bersih di Saukabu?</summary>
+          <p>Air bersih di Saukabu bersumber dari sumur. Tersedia untuk kebutuhan sehari-hari.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Bagaimana cara ke Saukabu dari Sorong?</summary>
+          <p>Dari Sorong, naik kapal ASDP Terubuk 1 menuju Pulau Fambemuk (Desa Pam), kemudian lanjut speedboat/longboat sekitar 15 menit ke Pulau Fam (Desa Saukabu). Total perjalanan laut sekitar 2–2,5 jam.</p>
         </details>
         <details class="faq-item">
           <summary>Apakah ada sinyal HP dan internet di Saukabu?</summary>
-          <p>Ya, akses internet di Saukabu sudah berjalan lancar. Pengunjung dapat tetap terhubung selama tinggal di
-            kampung.</p>
+          <p>Ya, akses internet di Saukabu sudah berjalan lancar. Pengunjung dapat tetap terhubung selama tinggal di kampung.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Apakah ada kendaraan bermotor di Saukabu?</summary>
+          <p>Tidak ada kendaraan bermotor darat di Saukabu. Transportasi utama adalah kapal dan perahu. Ini justru menjadi bagian dari keunikan kampung pesisir ini!</p>
         </details>
         <details class="faq-item">
           <summary>Apa saja yang bisa dilakukan di Saukabu?</summary>
-          <p>Banyak! Antara lain: susur gua melihat artefak peninggalan pendahulu, pengamatan burung endemik, menelusuri
-            sejarah dari Buku Album Saukabu, dan mengunjungi Puncak Piaynemo yang hanya 10–15 menit dari kampung.</p>
+          <p>Banyak! Antara lain: susur gua melihat artefak peninggalan pendahulu, pengamatan burung endemik, menelusuri sejarah dari Buku Album Saukabu, dan mengunjungi Puncak Piaynemo yang hanya 10–15 menit dari kampung.</p>
         </details>
         <details class="faq-item">
           <summary>Kapan waktu terbaik berkunjung ke Saukabu?</summary>
-          <p>Waktu terbaik umumnya antara Oktober hingga April saat cuaca lebih tenang dan laut lebih bersahabat untuk
-            perjalanan laut.</p>
+          <p>Waktu terbaik umumnya antara Oktober hingga April saat cuaca lebih tenang dan laut lebih bersahabat untuk perjalanan laut.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Apakah ada fasilitas kesehatan di Saukabu?</summary>
+          <p>Di Saukabu tersedia Pustu (Puskesmas Pembantu). Untuk fasilitas yang lebih lengkap, Puskesmas terdekat berada di Pulau Manyaifun.</p>
         </details>
       </div>
     </div>
@@ -574,6 +555,54 @@
     // ===== CMS DATA FETCHING =====
     async function loadCMSData() {
       try {
+        // Load Homestay
+        const hsRes = await fetch('data/homestay.json');
+        if (hsRes.ok) {
+          const hsData = await hsRes.json();
+          const hsContainer = document.getElementById('homestay-container');
+          hsContainer.innerHTML = '';
+          hsData.items.forEach((item, i) => {
+            const waMsg = encodeURIComponent(`Halo ${item.owner}, saya tertarik menginap di ${item.name}. Apakah ada kamar tersedia?`);
+            const imgHtml = item.image ? `<img src="${item.image}" alt="${item.name}" class="hs-img">` : `<div class="hs-img-placeholder">🏠</div>`;
+            hsContainer.innerHTML += `
+              <div class="hs-card fade-up visible">
+                ${imgHtml}
+                <div class="hs-body">
+                  <div class="hs-num">${String(i+1).padStart(2,'0')}</div>
+                  <h3 class="hs-name">${item.name}</h3>
+                  <div class="hs-owner">Pemilik: ${item.owner}</div>
+                  <p class="hs-desc">${item.description}</p>
+                  <div class="hs-fac">🛏 ${item.facilities}</div>
+                  <a href="https://wa.me/${item.phone}?text=${waMsg}" target="_blank" class="btn solid hs-btn">Hubungi via WhatsApp →</a>
+                </div>
+              </div>
+            `;
+          });
+        }
+
+        // Load UMKM
+        const umkmRes = await fetch('data/umkm.json');
+        if (umkmRes.ok) {
+          const umkmData = await umkmRes.json();
+          const umkmContainer = document.getElementById('umkm-container');
+          umkmContainer.innerHTML = '';
+          umkmData.items.forEach(item => {
+            const waMsg = encodeURIComponent(`Halo ${item.seller}, saya tertarik dengan produk ${item.name}. Apakah masih tersedia?`);
+            const imgHtml = item.image ? `<img src="${item.image}" alt="${item.name}" class="umkm-img">` : `<div class="umkm-img-placeholder">🛒</div>`;
+            umkmContainer.innerHTML += `
+              <div class="umkm-card fade-up visible">
+                ${imgHtml}
+                <div class="umkm-body">
+                  <h4 class="umkm-name">${item.name}</h4>
+                  <div class="umkm-seller">Penjual: ${item.seller}</div>
+                  <p class="umkm-desc">${item.description}</p>
+                  <a href="https://wa.me/${item.phone}?text=${waMsg}" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp →</a>
+                </div>
+              </div>
+            `;
+          });
+        }
+
         // Load Fauna
         const faunaRes = await fetch('data/fauna.json');
         if (faunaRes.ok) {

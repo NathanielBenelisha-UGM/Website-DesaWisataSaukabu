@@ -1,0 +1,19 @@
+{
+  "items": [
+    { "name": "Virgin Coconut Oil (VCO)", "seller": "Nama Penjual 1", "description": "Minyak kelapa murni tanpa bahan kimia, baik untuk kesehatan dan kecantikan.", "phone": "6281234567890", "image": "" },
+    { "name": "Anyaman Tangan — Tas", "seller": "Nama Penjual 2", "description": "Tas anyaman tangan khas Saukabu buatan ibu-ibu kampung.", "phone": "6281234567890", "image": "" },
+    { "name": "Anyaman Tangan — Topi", "seller": "Nama Penjual 3", "description": "Topi anyaman khas Saukabu, cocok untuk oleh-oleh wisatawan.", "phone": "6281234567890", "image": "" },
+    { "name": "Ikan Laut Segar", "seller": "Nama Penjual 4", "description": "Ikan laut segar hasil tangkapan nelayan Saukabu, bisa dipesan sewaktu-waktu.", "phone": "6281234567890", "image": "" },
+    { "name": "Kelapa Muda", "seller": "Nama Penjual 5", "description": "Kelapa muda segar langsung dari kebun warga kampung.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 6", "seller": "Nama Penjual 6", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 7", "seller": "Nama Penjual 7", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 8", "seller": "Nama Penjual 8", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 9", "seller": "Nama Penjual 9", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 10", "seller": "Nama Penjual 10", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 11", "seller": "Nama Penjual 11", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 12", "seller": "Nama Penjual 12", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 13", "seller": "Nama Penjual 13", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 14", "seller": "Nama Penjual 14", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
+    { "name": "Produk UMKM 15", "seller": "Nama Penjual 15", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" }
+  ]
+}
