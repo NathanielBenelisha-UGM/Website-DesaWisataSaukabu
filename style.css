@@ -699,13 +699,14 @@ footer { background: var(--ocean-deep); color: var(--paper); }
 .footer-tagline { font-size: 15px; color: rgba(251,246,236,0.6); line-height: 1.7; max-width: 420px; margin: 0 auto 40px; }
 
 .contact-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
   gap: 20px;
-  max-width: 780px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .contact-card {
+  flex: 1;
   background: rgba(251,246,236,0.07);
   border: 1px solid rgba(251,246,236,0.15);
   border-radius: var(--radius);
