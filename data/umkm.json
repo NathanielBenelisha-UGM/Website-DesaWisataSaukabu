@@ -1,19 +1,39 @@
 {
   "items": [
-    { "name": "Virgin Coconut Oil (VCO)", "seller": "Nama Penjual 1", "description": "Minyak kelapa murni tanpa bahan kimia, baik untuk kesehatan dan kecantikan.", "phone": "6281234567890", "image": "" },
-    { "name": "Anyaman Tangan — Tas", "seller": "Nama Penjual 2", "description": "Tas anyaman tangan khas Saukabu buatan ibu-ibu kampung.", "phone": "6281234567890", "image": "" },
-    { "name": "Anyaman Tangan — Topi", "seller": "Nama Penjual 3", "description": "Topi anyaman khas Saukabu, cocok untuk oleh-oleh kenangan dari Pulau Fam.", "phone": "6281234567890", "image": "" },
-    { "name": "Ikan Laut Segar", "seller": "Nama Penjual 4", "description": "Ikan laut segar hasil tangkapan nelayan Saukabu, bisa dipesan sewaktu-waktu.", "phone": "6281234567890", "image": "" },
-    { "name": "Kelapa Muda", "seller": "Nama Penjual 5", "description": "Kelapa muda segar langsung dari kebun warga kampung.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 6", "seller": "Nama Penjual 6", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 7", "seller": "Nama Penjual 7", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 8", "seller": "Nama Penjual 8", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 9", "seller": "Nama Penjual 9", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 10", "seller": "Nama Penjual 10", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 11", "seller": "Nama Penjual 11", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 12", "seller": "Nama Penjual 12", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 13", "seller": "Nama Penjual 13", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 14", "seller": "Nama Penjual 14", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" },
-    { "name": "Produk UMKM 15", "seller": "Nama Penjual 15", "description": "Deskripsi produk akan segera diperbarui.", "phone": "6281234567890", "image": "" }
+    {
+      "name": "Virgin Coconut Oil (VCO)",
+      "seller": "Warga Kampung Saukabu",
+      "description": "Minyak kelapa murni (VCO) tanpa bahan kimia, diproses secara tradisional oleh warga Saukabu. Terbukti baik untuk kesehatan jantung, kulit, dan rambut. Tersedia dalam berbagai ukuran botol.",
+      "phone": "6285220324783",
+      "image": ""
+    },
+    {
+      "name": "Anyaman Tangan — Tas",
+      "seller": "Ibu-ibu Kampung Saukabu",
+      "description": "Tas anyaman tangan khas Saukabu, dibuat oleh ibu-ibu kampung dengan teknik tradisional turun-temurun menggunakan daun pandan dan rotan lokal. Setiap tas adalah karya seni yang unik dan tidak ada yang sama persis.",
+      "phone": "6285220324783",
+      "image": ""
+    },
+    {
+      "name": "Anyaman Tangan — Topi",
+      "seller": "Ibu-ibu Kampung Saukabu",
+      "description": "Topi anyaman khas Saukabu — pelindung sempurna dari terik matahari Raja Ampat sekaligus oleh-oleh kenangan terbaik dari Pulau Fam. Dibuat tangan dengan teliti oleh pengrajin lokal Saukabu.",
+      "phone": "6285220324783",
+      "image": ""
+    },
+    {
+      "name": "Ikan Laut Segar",
+      "seller": "Nelayan Kampung Saukabu",
+      "description": "Ikan laut segar hasil tangkapan nelayan Saukabu langsung dari perairan Segitiga Terumbu Karang Dunia. Tersedia berbagai jenis ikan konsumsi berkualitas tinggi, bisa dipesan sewaktu-waktu.",
+      "phone": "6285220324783",
+      "image": ""
+    },
+    {
+      "name": "Kelapa Muda Segar",
+      "seller": "Kebun Warga Saukabu",
+      "description": "Kelapa muda segar langsung dari kebun warga kampung. Tidak ada yang lebih menyegarkan dari kelapa muda setelah seharian berpetualang di bawah terik matahari Raja Ampat.",
+      "phone": "6285220324783",
+      "image": ""
+    }
   ]
 }
