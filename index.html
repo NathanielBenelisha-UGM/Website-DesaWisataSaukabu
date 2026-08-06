@@ -121,8 +121,13 @@
       </a>
       <a href="#galeri" class="dash-card fade-up visible">
         <div class="dash-icon">📸</div>
-        <h3 class="dash-title">Galeri & FAQ</h3>
-        <p class="dash-desc">Kumpulan foto, akses lokasi, dan pertanyaan umum.</p>
+        <h3 class="dash-title">Galeri</h3>
+        <p class="dash-desc">Kumpulan foto dokumentasi keindahan Saukabu.</p>
+      </a>
+      <a href="#kontak" class="dash-card fade-up">
+        <div class="dash-icon">📞</div>
+        <h2 class="dash-title">FAQ &amp; Kontak</h2>
+        <p class="dash-desc">Pertanyaan umum, akses lokasi, dan narahubung.</p>
       </a>
     </div>
   </div> <!-- /page-dashboard -->
@@ -219,9 +224,9 @@
               <p>Jelajahi gua-gua kapur di sekitar kampung yang menyimpan artefak peninggalan pendahulu yang masih terjaga. Dinding gua menjadi saksi bisu kisah leluhur Saukabu selama berabad-abad — sebuah perjalanan sejarah yang benar-benar langka.</p>
             </div>
           </div>
-          <div class="card card-img">
+          <div class="card card-img album-slot" onclick="openAlbum()" style="cursor:pointer;">
             <div class="card-photo">
-              <img src="images/buku_album/Buku_Album_Saukabu-01.png" alt="Buku Album Saukabu" loading="lazy">
+              <img src="images/buku_album/Buku%20Album%20Saukabu-01.png" alt="Buku Album Saukabu" loading="lazy" style="cursor:pointer;" onclick="openAlbum()">
             </div>
             <div class="card-body">
               <div class="tag">Jejak Pendahulu</div>
@@ -392,9 +397,7 @@
         <div class="eyebrow">Inventarisasi Tumbuhan</div>
         <h2 style="margin-bottom:8px;">Spesies Tumbuhan di Saukabu</h2>
         <p style="color:rgba(22,35,31,0.7); margin-bottom:36px; max-width:640px; line-height:1.7; font-size:14px;">Dokumentasi 22 spesies pohon dan tumbuhan yang tumbuh di Kampung Saukabu dan Pulau Fam, disusun oleh Tim KKN-PPM UGM Periode 2 Tahun 2026.</p>
-        <div class="natgeo-grid" id="flora-container">
-          <!-- Flora cards loaded from data/flora.json -->
-        </div>
+        <!-- flora-container di-disable karena tidak ada json -->
       </div>
     </section>
 
@@ -452,7 +455,160 @@
         <div class="eyebrow">Pilih Homestay Anda</div>
         <h2 class="section-title">8 Homestay Pilihan di Saukabu</h2>
         <p style="margin:14px 0 40px; max-width:640px; line-height:1.7; color:rgba(22,35,31,0.75);">Semua homestay melayani pemesanan langsung via WhatsApp. Hubungi pemilik untuk mengkonfirmasi ketersediaan kamar sebelum berkunjung.</p>
-        <div class="hs-grid" id="homestay-container"></div>
+        <div class="hs-grid" id="homestay-container">
+          <div class="hs-card fade-up visible">
+            <div class="hs-img-wrap"><div class="hs-img-placeholder">🏝️</div><div class="hs-overlay-num">01</div></div>
+            <div class="hs-body">
+              <div class="hs-chips"><span class="hs-chip">Snorkeling spot kelas dunia</span><span class="hs-chip">Dekat Piaynemo</span><span class="hs-chip">Makan 4x sehari</span><span class="hs-chip">Kelapa muda gratis</span></div>
+              <h3 class="hs-name">Saukabu Homestay</h3>
+              <div class="hs-tagline">Ensuite bungalows di bawah pohon kelapa dengan snorkeling kelas dunia di depan pintu.</div>
+              <div class="hs-owner">👤 Agnesius Fakdawer</div>
+              <p class="hs-desc">Saukabu Homestay menawarkan pengalaman menginap autentik di Pulau Fam dengan bungalow berkamar mandi dalam (ensuite). Diapit pohon kelapa dan menghadap langsung ke perairan biru jernih, homestay ini adalah titik terbaik menikmati sunset sambil minum kelapa muda gratis. Piaynemo, ikon Raja Ampat, hanya 10–15 menit perjalanan laut.</p>
+              <div class="hs-meta-row">
+                <div class="hs-meta-item">🛏 <strong>Kamar:</strong> 5 kamar (kapasitas 2 orang/kamar)</div>
+                <div class="hs-meta-item">💰 <strong>Harga:</strong> Rp 600.000/malam/orang</div>
+              </div>
+              <div class="hs-transport">⛵ Pam: 500rb | Waisai: 3,5jt | Sorong: 6jt (speedboat). Tur Piaynemo, Andau, Nusa Garden tersedia.</div>
+              <div class="hs-actions">
+                <a href="https://wa.me/6285220324783?text=Halo%20Agnesius%20Fakdawer%2C%20saya%20tertarik%20menginap%20di%20Saukabu%20Homestay.%20Apakah%20ada%20kamar%20tersedia%3F" target="_blank" class="btn solid hs-btn">WhatsApp →</a>
+                <a href="https://www.stayrajaampat.com/accommodation/saukabu-homestay/" target="_blank" class="hs-sra-link">Lihat di Stay Raja Ampat ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="hs-card fade-up visible">
+            <div class="hs-img-wrap"><div class="hs-img-placeholder">🏝️</div><div class="hs-overlay-num">02</div></div>
+            <div class="hs-body">
+              <div class="hs-chips"><span class="hs-chip">Pantai berpohon kelapa</span><span class="hs-chip">Akses ke semua atraksi Pam</span><span class="hs-chip">Tersedia di Booking.com</span></div>
+              <h3 class="hs-name">Mamere Homestay</h3>
+              <div class="hs-tagline">Tiga bungalow di pantai berpohon kelapa, pusat dari semua atraksi Kepulauan Pam.</div>
+              <div class="hs-owner">👤 Lamek Barangsano</div>
+              <p class="hs-desc">Mamere Homestay terletak di pantai berpasir putih dan berbaris pohon kelapa yang teduh. Strategis sebagai basecamp untuk menjelajahi seluruh atraksi Kepulauan Pam dan Piaynemo. Tersedia pemesanan online melalui Stay Raja Ampat maupun Booking.com untuk kemudahan.</p>
+              <div class="hs-meta-row">
+                <div class="hs-meta-item">🛏 <strong>Kamar:</strong> 5 kamar (kapasitas 2–3 orang/kamar)</div>
+                <div class="hs-meta-item">💰 <strong>Harga:</strong> Rp 400.000/malam (Stay Raja Ampat) | Rp 600.000/malam (Booking.com)</div>
+              </div>
+              <div class="hs-transport">⛵ Jemput dari Waisai, Sorong, dan Pam dengan berbagai kapasitas kapal (15PK–200PK). Tur Piaynemo, Andau, Telaga Bintang, Nusa Garden tersedia.</div>
+              <div class="hs-actions">
+                <a href="https://wa.me/6281234567890?text=Halo%20Lamek%20Barangsano%2C%20saya%20tertarik%20menginap%20di%20Mamere%20Homestay.%20Apakah%20ada%20kamar%20tersedia%3F" target="_blank" class="btn solid hs-btn">WhatsApp →</a>
+                <a href="https://www.stayrajaampat.com/accommodation/mamere-homestay/" target="_blank" class="hs-sra-link">Lihat di Stay Raja Ampat ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="hs-card fade-up visible">
+            <div class="hs-img-wrap"><div class="hs-img-placeholder">🏝️</div><div class="hs-overlay-num">03</div></div>
+            <div class="hs-body">
+              <div class="hs-chips"><span class="hs-chip">11 kamar VIP</span><span class="hs-chip">Terbesar di Saukabu</span><span class="hs-chip">43 ulasan positif</span><span class="hs-chip">Dekat danau & hiking</span></div>
+              <h3 class="hs-name">Raja Ampat Sunrise Homestay</h3>
+              <div class="hs-tagline">Homestay terbesar di Saukabu — 11 kamar VIP dengan danau, hiking, dan pantai menakjubkan.</div>
+              <div class="hs-owner">👤 Paulus</div>
+              <p class="hs-desc">Raja Ampat Sunrise adalah pilihan premium di Kepulauan Pam. Dengan 11 kamar VIP, homestay ini merupakan yang terbesar di Saukabu dan paling berpengalaman dalam melayani tamu dari berbagai negara (43 ulasan di StayRajaAmpat). Lokasinya dekat dengan danau pulau, jalur hiking, dan pantai-pantai spektakuler Pam — semuanya dalam jarak berjalan kaki.</p>
+              <div class="hs-meta-row">
+                <div class="hs-meta-item">🛏 <strong>Kamar:</strong> 11 kamar VIP</div>
+                <div class="hs-meta-item">💰 <strong>Harga:</strong> Rp 700.000/malam/orang | Rp 1.000.000/malam/2 orang</div>
+              </div>
+              <div class="hs-transport">⛵ Waisai: Longboat 2,5jt (4 org) | Speedboat 6jt (4 org). Tur sekitar Pam tersedia.</div>
+              <div class="hs-actions">
+                <a href="https://wa.me/6281234567890?text=Halo%20Paulus%2C%20saya%20tertarik%20menginap%20di%20Raja%20Ampat%20Sunrise%20Homestay.%20Apakah%20ada%20kamar%20tersedia%3F" target="_blank" class="btn solid hs-btn">WhatsApp →</a>
+                <a href="https://www.stayrajaampat.com/accommodation/raja-ampat-sunrise-homestay/" target="_blank" class="hs-sra-link">Lihat di Stay Raja Ampat ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="hs-card fade-up visible">
+            <div class="hs-img-wrap"><div class="hs-img-placeholder">🏝️</div><div class="hs-overlay-num">04</div></div>
+            <div class="hs-body">
+              <div class="hs-chips"><span class="hs-chip">Bungalow kayu berkualitas</span><span class="hs-chip">Pantai pasir putih</span><span class="hs-chip">11 ulasan positif</span><span class="hs-chip">Kamar mandi ensuite</span></div>
+              <h3 class="hs-name">Mandarou Homestay</h3>
+              <div class="hs-tagline">Bungalow kayu bercat dengan kamar mandi ensuite di pantai pasir putih — sulit ditandingi.</div>
+              <div class="hs-owner">👤 Frans Dimara</div>
+              <p class="hs-desc">Mandarou Homestay dikenal dengan kualitas bangunannya yang menonjol — bungalow berpanel kayu dengan jendela kaca dan kamar mandi dalam yang membuatnya sangat nyaman untuk standar homestay Raja Ampat. Letaknya di pantai pasir putih di jantung Kepulauan Pam, ideal untuk eksplorasi ke segala penjuru.</p>
+              <div class="hs-meta-row">
+                <div class="hs-meta-item">🛏 <strong>Kamar:</strong> 8 kamar</div>
+                <div class="hs-meta-item">💰 <strong>Harga:</strong> Rp 500.000/malam/orang</div>
+              </div>
+              <div class="hs-transport">⛵ Jemput dari Waisai: Longboat 2,5jt (2 org) atau 3jt (3+ org). Tur tersedia.</div>
+              <div class="hs-actions">
+                <a href="https://wa.me/6281285157584?text=Halo%20Frans%20Dimara%2C%20saya%20tertarik%20menginap%20di%20Mandarou%20Homestay.%20Apakah%20ada%20kamar%20tersedia%3F" target="_blank" class="btn solid hs-btn">WhatsApp →</a>
+                <a href="https://www.stayrajaampat.com/accommodation/mandarou-homestay/" target="_blank" class="hs-sra-link">Lihat di Stay Raja Ampat ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="hs-card fade-up visible">
+            <div class="hs-img-wrap"><div class="hs-img-placeholder">🏝️</div><div class="hs-overlay-num">05</div></div>
+            <div class="hs-body">
+              <div class="hs-chips"><span class="hs-chip">32 ulasan di StayRajaAmpat</span><span class="hs-chip">Restoran sendiri</span><span class="hs-chip">Paket snorkeling & diving</span><span class="hs-chip">Akses danau & Piaynemo</span></div>
+              <h3 class="hs-name">Tanjung Mefiyai Homestay</h3>
+              <div class="hs-tagline">Pantai putih sempurna, karang indah, danau pedalaman — pusat atraksi Piaynemo.</div>
+              <div class="hs-owner">👤 Nataniel Fakdawer</div>
+              <p class="hs-desc">Tanjung Mefiyai merupakan salah satu homestay paling direkomendasikan di Kepulauan Pam (32 ulasan di StayRajaAmpat). Memiliki 8 kamar dalam 3 tipe — VIP tepi pantai, VIP darat, dan reguler — serta restoran sendiri. Lokasinya di titik strategis untuk mengakses Piaynemo, danau pedalaman, dan spot snorkeling terbaik. Paket snorkeling & diving tersedia.</p>
+              <div class="hs-meta-row">
+                <div class="hs-meta-item">🛏 <strong>Kamar:</strong> 8 kamar (3 VIP pantai, 3 VIP darat, 2 reguler)</div>
+                <div class="hs-meta-item">💰 <strong>Harga:</strong> VIP Pantai: Rp 600.000/org | VIP Darat: Rp 500.000/org | Reguler: Rp 450.000/org</div>
+              </div>
+              <div class="hs-transport">⛵ Longboat: Waisai 2,5jt | Kri 2jt | Batanta 2,5–3jt. Snorkeling 3 spot + Piaynemo: 1,5jt/perahu.</div>
+              <div class="hs-actions">
+                <a href="https://wa.me/6281234567890?text=Halo%20Nataniel%20Fakdawer%2C%20saya%20tertarik%20menginap%20di%20Tanjung%20Mefiyai%20Homestay.%20Apakah%20ada%20kamar%20tersedia%3F" target="_blank" class="btn solid hs-btn">WhatsApp →</a>
+                <a href="https://www.stayrajaampat.com/accommodation/tanjung-mefiyai-homestay/" target="_blank" class="hs-sra-link">Lihat di Stay Raja Ampat ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="hs-card fade-up visible">
+            <div class="hs-img-wrap"><div class="hs-img-placeholder">🏝️</div><div class="hs-overlay-num">06</div></div>
+            <div class="hs-body">
+              <div class="hs-chips"><span class="hs-chip">Hanya 2 kamar (sangat privat)</span><span class="hs-chip">WC dalam</span><span class="hs-chip">Suasana tenang & intim</span></div>
+              <h3 class="hs-name">Saawinsrom</h3>
+              <div class="hs-tagline">Retreat privat dan tenang — 2 kamar eksklusif untuk pengalaman menginap yang intim.</div>
+              <div class="hs-owner">👤 Asur</div>
+              <p class="hs-desc">Saawinsrom adalah pilihan sempurna bagi pasangan atau teman perjalanan yang menginginkan suasana privat dan tenang di Raja Ampat. Hanya tersedia 2 kamar, menjamin ketenangan dan perhatian penuh dari tuan rumah. Dilengkapi WC dalam dan makan 3x sehari, cukup untuk memanjakan diri setelah seharian berpetualang.</p>
+              <div class="hs-meta-row">
+                <div class="hs-meta-item">🛏 <strong>Kamar:</strong> 2 kamar (kapasitas 2 orang/kamar)</div>
+                <div class="hs-meta-item">💰 <strong>Harga:</strong> Rp 600.000/malam</div>
+              </div>
+              <div class="hs-transport">⛵ Jemput dari Waisai (Longboat): 1,5jt (4 org). Trip Piaynemo: 1jt (4 org).</div>
+              <div class="hs-actions">
+                <a href="https://wa.me/6282211086831?text=Halo%20Asur%2C%20saya%20tertarik%20menginap%20di%20Saawinsrom.%20Apakah%20ada%20kamar%20tersedia%3F" target="_blank" class="btn solid hs-btn">WhatsApp →</a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="hs-card fade-up visible">
+            <div class="hs-img-wrap"><div class="hs-img-placeholder">🏝️</div><div class="hs-overlay-num">07</div></div>
+            <div class="hs-body">
+              <div class="hs-chips"><span class="hs-chip">Homestay baru & terawat</span><span class="hs-chip">Keluarga super ramah</span><span class="hs-chip">Pantai pasir putih</span><span class="hs-chip">Dekat Saukabu</span></div>
+              <h3 class="hs-name">Tara Fudin Homestay</h3>
+              <div class="hs-tagline">Empat bungalow di pantai pasir putih — homestay baru dengan keluarga yang sangat ramah.</div>
+              <div class="hs-owner">👤 Martin (Lefrida & Marthen)</div>
+              <p class="hs-desc">Tara Fudin adalah homestay yang relatif baru namun sudah menuai ulasan sangat positif dari tamu internasional. Bungalow-bungalownya dalam kondisi prima karena masih baru, terletak di pantai berpasir putih yang indah di pesisir timur laut Pulau Pam. Keluarga Martin sangat ramah dan berusaha keras untuk kepuasan tamu. Kampung Saukabu hanya selangkah dari homestay ini.</p>
+              <div class="hs-meta-row">
+                <div class="hs-meta-item">🛏 <strong>Kamar:</strong> 3 kamar (1 VIP, 2 reguler, kapasitas 2 orang)</div>
+                <div class="hs-meta-item">💰 <strong>Harga:</strong> Reguler: Rp 350.000/org | VIP: Rp 500.000/org</div>
+              </div>
+              <div class="hs-transport">⛵ Longboat: Waisai 2,5jt | Arborek 1,5jt | Kri 2jt | Batanta 2,5jt. Trip Piaynemo, Andau, Pulau Nafsi: masing-masing 1jt.</div>
+              <div class="hs-actions">
+                <a href="https://wa.me/6281318331728?text=Halo%20Martin%20%28Lefrida%20%26%20Marthen%29%2C%20saya%20tertarik%20menginap%20di%20Tara%20Fudin%20Homestay.%20Apakah%20ada%20kamar%20tersedia%3F" target="_blank" class="btn solid hs-btn">WhatsApp →</a>
+                <a href="https://www.stayrajaampat.com/accommodation/tara-fudin-homestay/" target="_blank" class="hs-sra-link">Lihat di Stay Raja Ampat ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="hs-card fade-up visible">
+            <div class="hs-img-wrap"><div class="hs-img-placeholder">🏝️</div><div class="hs-overlay-num">08</div></div>
+            <div class="hs-body">
+              <div class="hs-chips"><span class="hs-chip">Bungalow ensuite</span><span class="hs-chip">Pantai pasir putih</span><span class="hs-chip">Dekat spot manta ray</span><span class="hs-chip">6 ulasan positif</span></div>
+              <h3 class="hs-name">Saubaryam Homestay</h3>
+              <div class="hs-tagline">Bungalow ensuite di pantai pasir putih — Piaynemo, manta, dan snorkeling kelas dunia.</div>
+              <div class="hs-owner">👤 Stefanus Ivakdalam</div>
+              <p class="hs-desc">Saubaryam Homestay menonjol dengan 3 bungalow berkamar mandi dalam (ensuite) yang langsung menghadap pantai pasir putih di jantung Kepulauan Pam. Spot snorkeling dan manta ray Andau sama-sama dekat dari sini. Dengan 6 ulasan positif di StayRajaAmpat, Saubaryam menjadi pilihan terpercaya bagi siapa saja yang ingin merasakan keajaiban bawah laut Pam.</p>
+              <div class="hs-meta-row">
+                <div class="hs-meta-item">🛏 <strong>Kamar:</strong> 5 kamar (kapasitas 2–4 orang)</div>
+                <div class="hs-meta-item">💰 <strong>Harga:</strong> Rp 500.000/orang</div>
+              </div>
+              <div class="hs-transport">⛵ Jemput Waisai (Longboat): 2,5jt. Trip Andau Manta Point: 1jt | Trip Piaynemo: hubungi langsung.</div>
+              <div class="hs-actions">
+                <a href="https://wa.me/6282238624591?text=Halo%20Stefanus%20Ivakdalam%2C%20saya%20tertarik%20menginap%20di%20Saubaryam%20Homestay.%20Apakah%20ada%20kamar%20tersedia%3F" target="_blank" class="btn solid hs-btn">WhatsApp →</a>
+                <a href="https://www.stayrajaampat.com/accommodation/saubaryam-homestay/" target="_blank" class="hs-sra-link">Lihat di Stay Raja Ampat ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -735,10 +891,6 @@
          dan tempel di bawahnya
     ===================================================== -->
         <div class="gal-grid">
-          <div class="gal-slot album-slot" onclick="openAlbum()" title="Klik untuk membaca Buku Album (21 Halaman)">
-            <img src="images/buku_album/Buku%20Album%20Saukabu-01.png" alt="Buku Album Saukabu">
-            <div class="album-overlay">Buka Album (21 Halaman)</div>
-          </div>
           <div class="gal-slot"><img src="images/galeri/PemandanganPiaynemo.jpg" alt="Lanskap Puncak Piaynemo, Raja Ampat" class="lightbox-trigger"></div>
           <div class="gal-slot"><img src="images/galeri/ArtefakGua1.jpg" alt="Artefak peninggalan pendahulu di Gua" class="lightbox-trigger"></div>
           <div class="gal-slot"><img src="images/galeri/ArtefakGua2.jpg" alt="Artefak peninggalan pendahulu di Gua" class="lightbox-trigger"></div>
@@ -1067,8 +1219,8 @@
     async function loadCMSData() {
       try {
         // Load Homestay
-        const hsRes = await fetch('data/homestay.json');
-        if (hsRes.ok) {
+        // fetch homestay removed
+        if (false) {
           const hsData = await hsRes.json();
           const hsContainer = document.getElementById('homestay-container');
           hsContainer.innerHTML = '';
@@ -1102,8 +1254,8 @@
         }
 
         // Load UMKM
-        const umkmRes = await fetch('data/umkm.json');
-        if (umkmRes.ok) {
+        // fetch umkm removed
+        if (false) {
           const umkmData = await umkmRes.json();
           const umkmContainer = document.getElementById('umkm-container');
           umkmContainer.innerHTML = '';
