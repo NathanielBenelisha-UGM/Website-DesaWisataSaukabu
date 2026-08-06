@@ -21,10 +21,7 @@
   <!-- ===== NAV ===== -->
   <header id="site-header">
     <nav class="wrap nav-inner">
-      <a href="#beranda" class="logo">
-        <img src="images/logo.png" alt="Logo Saukabu" class="nav-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
-        <span class="nav-logo-text" style="display:none;">Saukabu<span>.</span></span>
-      </a>
+      <a href="#beranda" class="logo">Saukabu<span>.</span></a>
       <div class="navlinks" id="navlinks">
         <a href="#tentang">Tentang</a>
         <a href="#atraksi">Atraksi</a>
@@ -407,9 +404,16 @@
         <div class="eyebrow">Dokumen Lengkap</div>
         <h2 style="margin-bottom:12px;">Ensiklopedia Flora Saukabu</h2>
         <p style="color:rgba(22,35,31,0.7); margin-bottom:24px; font-size:14px;">Unduh atau buka dokumen PDF lengkap ensiklopedia flora Saukabu.</p>
-        <div class="flora-actions" style="justify-content:center;">
+        <div class="flora-actions" style="justify-content:center; margin-bottom: 24px;">
           <a href="Ensiklopedia_Flora_Saukabu%20(1).pdf" target="_blank" class="btn solid">Buka PDF ↗</a>
           <a href="Ensiklopedia_Flora_Saukabu%20(1).pdf" download class="btn ghost">⬇ Unduh PDF</a>
+        </div>
+        <div class="flora-pdf-wrap">
+          <iframe src="Ensiklopedia_Flora_Saukabu%20(1).pdf" class="flora-pdf-frame" title="Ensiklopedia Flora Saukabu"></iframe>
+          <div class="flora-pdf-fallback">
+            <p>Browser Anda tidak mendukung tampilan PDF langsung.</p>
+            <a href="Ensiklopedia_Flora_Saukabu%20(1).pdf" target="_blank" class="btn solid">Klik di sini untuk membuka PDF</a>
+          </div>
         </div>
       </div>
     </section>
@@ -464,7 +468,116 @@
         <p style="margin:14px 0 40px; max-width:640px; line-height:1.7; color:rgba(22,35,31,0.75);">Dukung perekonomian
           warga dengan membeli produk-produk lokal asli Saukabu. Hubungi langsung penjual untuk pemesanan.</p>
         <div class="umkm-grid" id="umkm-container">
-          <!-- UMKM cards loaded from data/umkm.json -->
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/vco.jpg" alt="Minyak Kelapa Murni (VCO)" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Minyak Kelapa Murni (VCO)</h3>
+              <p class="umkm-desc">Minyak kelapa murni hasil olahan tangan warga Kampung Saukabu. Diproses tanpa pemanasan tinggi sehingga nutrisi kelapa tetap terjaga. Cocok untuk perawatan kulit, rambut, dan suplemen kesehatan alami.</p>
+              <a href="https://wa.me/6281234567890" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/noken.jpg" alt="Kerajinan Noken Saukabu" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Kerajinan Noken Saukabu</h3>
+              <p class="umkm-desc">Tas tradisional Noken yang dirajut manual menggunakan serat kulit kayu pilihan. Kuat, tahan lama, dan memiliki nilai seni budaya Papua yang tinggi. Tersedia dalam berbagai ukuran.</p>
+              <a href="https://wa.me/6281234567891" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/ikan-asin.jpg" alt="Ikan Asin Khas Raja Ampat" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Ikan Asin Khas Raja Ampat</h3>
+              <p class="umkm-desc">Ikan laut segar tangkapan nelayan lokal yang diasinkan dan dijemur di bawah sinar matahari langsung. Tanpa bahan pengawet kimia, rasanya gurih dan tahan lama.</p>
+              <a href="https://wa.me/6281234567892" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/tikar.jpg" alt="Tikar Anyaman Daun Pandan" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Tikar Anyaman Daun Pandan</h3>
+              <p class="umkm-desc">Tikar tradisional hasil anyaman rapi dari daun pandan laut yang tumbuh di pesisir Saukabu. Proses pengeringan alami membuatnya awet, nyaman digunakan, dan harum khas pandan.</p>
+              <a href="https://wa.me/6281234567893" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/kue-lontar.jpg" alt="Kue Lontar Saukabu" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Kue Lontar Saukabu</h3>
+              <p class="umkm-desc">Kue khas Papua dengan tekstur lembut di tengah dan renyah di pinggir. Dibuat fresh setiap hari dengan resep turun-temurun. Cocok untuk teman minum teh atau kopi di sore hari.</p>
+              <a href="https://wa.me/6281234567894" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/abon.jpg" alt="Abon Ikan Tuna Asap" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Abon Ikan Tuna Asap</h3>
+              <p class="umkm-desc">Abon yang terbuat dari daging ikan tuna segar pilihan yang diasap. Proses pengasapan memberikan aroma khas yang menggugah selera. Sangat pas disajikan dengan nasi hangat.</p>
+              <a href="https://wa.me/6281234567895" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/gelang.jpg" alt="Gelang Akar Bahar" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Gelang Akar Bahar</h3>
+              <p class="umkm-desc">Kerajinan aksesoris gelang yang terbuat dari akar bahar asli dari perairan Raja Ampat. Dipercaya masyarakat setempat memiliki khasiat kesehatan dan menangkal energi negatif.</p>
+              <a href="https://wa.me/6281234567896" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/madu.jpg" alt="Madu Hutan Liar Pam" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Madu Hutan Liar Pam</h3>
+              <p class="umkm-desc">Madu hutan murni yang dipanen langsung dari hutan Pulau Fam. Memiliki rasa manis alami yang sedikit asam dan kaya akan antioksidan, sangat baik untuk menjaga stamina tubuh.</p>
+              <a href="https://wa.me/6281234567897" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/kripik.jpg" alt="Kripik Sukun Gurih" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Kripik Sukun Gurih</h3>
+              <p class="umkm-desc">Camilan renyah yang terbuat dari buah sukun pilihan yang tumbuh subur di kampung. Diiris tipis dan digoreng dengan bumbu rempah lokal, menjadikannya oleh-oleh favorit wisatawan.</p>
+              <a href="https://wa.me/6281234567898" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
+          <div class="umkm-card fade-up visible">
+            <div class="umkm-img-wrap">
+              <img src="images/umkm/topi.jpg" alt="Topi Anyaman Daun Kelapa" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="umkm-img-fallback" style="display:none;">🛍️</div>
+            </div>
+            <div class="umkm-body">
+              <h3 class="umkm-name">Topi Anyaman Daun Kelapa</h3>
+              <p class="umkm-desc">Topi ramah lingkungan hasil kreasi anyaman daun kelapa muda. Sangat ringan dan sejuk saat dipakai, cocok digunakan untuk melindungi kepala saat menjelajahi pantai di siang hari.</p>
+              <a href="https://wa.me/6281234567899" target="_blank" class="btn solid umkm-btn">Pesan via WhatsApp</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -488,7 +601,72 @@
       (Tidak perlu belajar coding, cukup ganti teksnya saja)
     ===================================================== -->
         <div class="news-grid" id="news-container">
-          <!-- News cards will be loaded here dynamically from data/berita.json via CMS -->
+          <article class="news-card fade-up visible">
+            <div class="news-img-wrap">
+              <img src="images/KKN-PPM-UGM_Periode2_2026-LandscapePemandanganPiaynemo.jpg" alt="Website Resmi Kampung Saukabu Diluncurkan" class="news-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                 <div class="news-img-fallback" style="display:none;"></div>
+            </div>
+            <div class="news-content">
+              <div class="news-date">Agustus 2026</div>
+              <h3 class="news-title">Website Resmi Kampung Saukabu Diluncurkan</h3>
+              <p class="news-body">Website resmi Kampung Saukabu kini hadir untuk memperkenalkan potensi dan kekayaan alam kampung kepada pengunjung lokal maupun mancanegara. Website ini dibangun bersama mahasiswa KKN-PPM UGM Periode 2 Tahun 2026 dalam program 'Amai Pulau Pam' sebagai bagian dari pengabdian masyarakat di Kepulauan Raja Ampat.</p>
+            </div>
+          </article>
+          <article class="news-card fade-up visible">
+            <div class="news-img-wrap">
+              <img src="images/KKN-PPM-UGM_Periode2_2026-KunjunganTimKKNKePiaynemo1.jpg" alt="Tim KKN UGM Kunjungi Puncak Piaynemo" class="news-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                 <div class="news-img-fallback" style="display:none;"></div>
+            </div>
+            <div class="news-content">
+              <div class="news-date">Juli 2026</div>
+              <h3 class="news-title">Tim KKN UGM Kunjungi Puncak Piaynemo</h3>
+              <p class="news-body">Mahasiswa KKN-PPM UGM Periode 2 melakukan kunjungan ke Puncak Piaynemo — ikon Raja Ampat yang hanya 10–15 menit perjalanan laut dari Saukabu. Kunjungan ini sekaligus menjadi bagian dari survei potensi alam kampung untuk mendukung program pengabdian masyarakat.</p>
+            </div>
+          </article>
+          <article class="news-card fade-up visible">
+            <div class="news-img-wrap">
+              <img src="images/KKN-PPM-UGM_Periode2_2026-KoordinasiPemetaanDanPemasanganPetaSaukabuAtauPulauFam.jpg" alt="Pemetaan Wilayah dan Pemasangan Peta Kampung Saukabu" class="news-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                 <div class="news-img-fallback" style="display:none;"></div>
+            </div>
+            <div class="news-content">
+              <div class="news-date">Juli 2026</div>
+              <h3 class="news-title">Pemetaan Wilayah dan Pemasangan Peta Kampung Saukabu</h3>
+              <p class="news-body">Tim KKN UGM bersama perangkat kampung menyelesaikan koordinasi pemetaan wilayah Kampung Saukabu di Pulau Fam. Peta administrasi kampung yang dihasilkan kemudian dipasang secara resmi sebagai referensi pengelolaan wilayah kampung ke depannya.</p>
+            </div>
+          </article>
+          <article class="news-card fade-up visible">
+            <div class="news-img-wrap">
+              <img src="images/KKN-PPM-UGM_Periode2_2026-PerayaanUlangTahunSaukabuKe26-1.jpg" alt="Perayaan Hari Ulang Tahun Saukabu ke-26" class="news-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                 <div class="news-img-fallback" style="display:none;"></div>
+            </div>
+            <div class="news-content">
+              <div class="news-date">Juni 2026</div>
+              <h3 class="news-title">Perayaan Hari Ulang Tahun Saukabu ke-26</h3>
+              <p class="news-body">Kampung Saukabu merayakan hari ulang tahunnya yang ke-26 bersama seluruh warga kampung dan mahasiswa KKN-PPM UGM. Perayaan berlangsung meriah di tepi pantai pasir putih Saukabu dengan berbagai kegiatan kebersamaan yang mempererat tali persaudaraan.</p>
+            </div>
+          </article>
+          <article class="news-card fade-up visible">
+            <div class="news-img-wrap">
+              <img src="images/KKN-PPM-UGM_Periode2_2026-PenyerahanMahasiswaDariDosenPembimbingLapanganKeDesaSaukabu.jpg" alt="Penyerahan Resmi Mahasiswa KKN UGM ke Kampung Saukabu" class="news-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                 <div class="news-img-fallback" style="display:none;"></div>
+            </div>
+            <div class="news-content">
+              <div class="news-date">Juni 2026</div>
+              <h3 class="news-title">Penyerahan Resmi Mahasiswa KKN UGM ke Kampung Saukabu</h3>
+              <p class="news-body">Dosen Pembimbing Lapangan (DPL) secara resmi menyerahkan mahasiswa KKN-PPM UGM Periode 2 Tahun 2026 kepada perangkat Kampung Saukabu. Serah terima ini menandai dimulainya program pengabdian masyarakat selama kurang lebih satu bulan penuh di Kepulauan Pam, Raja Ampat.</p>
+            </div>
+          </article>
+          <article class="news-card fade-up visible">
+            <div class="news-img-wrap">
+              <img src="images/KKN-PPM-UGM_Periode2_2026-PenyambutanDiDesaPam.jpg" alt="Penyambutan Hangat Tim KKN UGM di Desa Pam" class="news-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                 <div class="news-img-fallback" style="display:none;"></div>
+            </div>
+            <div class="news-content">
+              <div class="news-date">Juni 2026</div>
+              <h3 class="news-title">Penyambutan Hangat Tim KKN UGM di Desa Pam</h3>
+              <p class="news-body">Seluruh tim mahasiswa KKN-PPM UGM Periode 2 Tahun 2026 disambut hangat oleh masyarakat Desa Pam saat tiba dari pelabuhan. Penyambutan penuh keramahan ini menjadi awal yang membahagiakan dari program pengabdian masyarakat bertema 'Amai Pulau Pam' di Raja Ampat.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
