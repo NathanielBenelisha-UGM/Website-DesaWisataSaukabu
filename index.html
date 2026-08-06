@@ -21,7 +21,10 @@
   <!-- ===== NAV ===== -->
   <header id="site-header">
     <nav class="wrap nav-inner">
-      <a href="#beranda" class="logo">Saukabu<span>.</span></a>
+      <a href="#beranda" class="logo">
+        <img src="images/logo.png" alt="Logo Saukabu" class="nav-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+        <span class="nav-logo-text" style="display:none;">Saukabu<span>.</span></span>
+      </a>
       <div class="navlinks" id="navlinks">
         <a href="#tentang">Tentang</a>
         <a href="#atraksi">Atraksi</a>
@@ -380,28 +383,33 @@
 
     <!-- FLORA STATS -->
     <div class="eco-stats">
-      <div class="eco-stat"><div class="eco-stat-num">Flora</div><div class="eco-stat-label">Keanekaragaman Tumbuhan</div></div>
+      <div class="eco-stat"><div class="eco-stat-num">22</div><div class="eco-stat-label">Spesies Tumbuhan</div></div>
+      <div class="eco-stat"><div class="eco-stat-num">39</div><div class="eco-stat-label">Spesies Burung</div></div>
       <div class="eco-stat"><div class="eco-stat-num">Pulau Fam</div><div class="eco-stat-label">Wilayah Dokumentasi</div></div>
       <div class="eco-stat"><div class="eco-stat-num">2026</div><div class="eco-stat-label">Tahun Inventarisasi</div></div>
-      <div class="eco-stat"><div class="eco-stat-num">KKN UGM</div><div class="eco-stat-label">Tim Penyusun</div></div>
     </div>
 
-    <!-- PDF EMBED -->
-    <section class="eco-article" style="padding: 60px 0;">
+    <!-- FLORA GRID -->
+    <section class="eco-article" style="padding: 60px 0; background: var(--paper);">
       <div class="wrap">
-        <div class="eyebrow">Dokumen Lengkap</div>
-        <h2 style="margin-bottom:8px;">Ensiklopedia Flora Saukabu</h2>
-        <p style="color:rgba(22,35,31,0.7); margin-bottom:28px; font-size:14px;">Scroll untuk membaca dokumen. Klik tombol di bawah untuk mengunduh atau membuka di tab baru.</p>
-        <div class="flora-actions">
-          <a href="Ensiklopedia_Flora_Saukabu (1).pdf" target="_blank" class="btn solid">Buka di Tab Baru ↗</a>
-          <a href="Ensiklopedia_Flora_Saukabu (1).pdf" download class="btn ghost">⬇ Unduh PDF</a>
+        <div class="eyebrow">Inventarisasi Tumbuhan</div>
+        <h2 style="margin-bottom:8px;">Spesies Tumbuhan di Saukabu</h2>
+        <p style="color:rgba(22,35,31,0.7); margin-bottom:36px; max-width:640px; line-height:1.7; font-size:14px;">Dokumentasi 22 spesies pohon dan tumbuhan yang tumbuh di Kampung Saukabu dan Pulau Fam, disusun oleh Tim KKN-PPM UGM Periode 2 Tahun 2026.</p>
+        <div class="natgeo-grid" id="flora-container">
+          <!-- Flora cards loaded from data/flora.json -->
         </div>
-        <div class="flora-pdf-wrap">
-          <iframe src="Ensiklopedia_Flora_Saukabu (1).pdf" class="flora-pdf-frame" title="Ensiklopedia Flora Saukabu"></iframe>
-          <div class="flora-pdf-fallback">
-            <p>Browser Anda tidak mendukung tampilan PDF langsung.</p>
-            <a href="Ensiklopedia_Flora_Saukabu (1).pdf" target="_blank" class="btn solid">Klik di sini untuk membuka PDF</a>
-          </div>
+      </div>
+    </section>
+
+    <!-- PDF DOWNLOAD -->
+    <section style="padding: 40px 0; background: var(--sand);">
+      <div class="wrap" style="text-align:center;">
+        <div class="eyebrow">Dokumen Lengkap</div>
+        <h2 style="margin-bottom:12px;">Ensiklopedia Flora Saukabu</h2>
+        <p style="color:rgba(22,35,31,0.7); margin-bottom:24px; font-size:14px;">Unduh atau buka dokumen PDF lengkap ensiklopedia flora Saukabu.</p>
+        <div class="flora-actions" style="justify-content:center;">
+          <a href="Ensiklopedia_Flora_Saukabu (1).pdf" target="_blank" class="btn solid">Buka PDF ↗</a>
+          <a href="Ensiklopedia_Flora_Saukabu (1).pdf" download class="btn ghost">⬇ Unduh PDF</a>
         </div>
       </div>
     </section>
@@ -984,6 +992,36 @@
               </article>
             `;
           });
+        }
+
+        // Load Flora
+        const floraRes = await fetch('data/flora.json');
+        if (floraRes.ok) {
+          const floraData = await floraRes.json();
+          const floraContainer = document.getElementById('flora-container');
+          if (floraContainer) {
+            floraContainer.innerHTML = '';
+            floraData.items.forEach(item => {
+              const imgHtml = item.image
+                ? `<img src="${item.image}" alt="${item.nama_lokal}" loading="lazy">`
+                : `<div class="fauna-img-placeholder">🌿</div>`;
+              floraContainer.innerHTML += `
+                <div class="natgeo-card fade-up visible">
+                  <div class="natgeo-img-wrap">
+                    ${imgHtml}
+                    <div class="natgeo-overlay">
+                      <div class="natgeo-famili">${item.famili || ''}</div>
+                      <h3 class="natgeo-name">${item.nama_lokal}</h3>
+                      <div class="natgeo-sc">${item.nama_ilmiah}</div>
+                    </div>
+                  </div>
+                  <div class="natgeo-body">
+                    <p class="natgeo-desc">${item.deskripsi || ''}</p>
+                  </div>
+                </div>
+              `;
+            });
+          }
         }
       } catch (err) {
         console.error("Error loading CMS data:", err);

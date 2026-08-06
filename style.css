@@ -206,8 +206,9 @@ h1, h2, h3 {
   justify-content: space-between;
   height: 72px;
 }
-.logo { font-family: var(--display); font-weight: 700; font-size: 20px; }
+.logo { font-family: var(--display); font-weight: 700; font-size: 20px; display: flex; align-items: center; }
 .logo span { color: var(--coral); }
+.nav-logo-img { height: 38px; width: auto; object-fit: contain; }
 .navlinks { display: flex; gap: 30px; font-size: 13.5px; font-weight: 500; }
 .navlinks a { position: relative; padding: 4px 0; }
 .navlinks a::after {
