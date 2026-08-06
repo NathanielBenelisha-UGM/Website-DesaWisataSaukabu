@@ -1,39 +1,64 @@
 {
   "items": [
     {
-      "name": "Virgin Coconut Oil (VCO)",
-      "seller": "Warga Kampung Saukabu",
-      "description": "Minyak kelapa murni (VCO) tanpa bahan kimia, diproses secara tradisional oleh warga Saukabu. Terbukti baik untuk kesehatan jantung, kulit, dan rambut. Tersedia dalam berbagai ukuran botol.",
-      "phone": "6285220324783",
-      "image": ""
+      "name": "Minyak Kelapa Murni (VCO)",
+      "desc": "Minyak kelapa murni hasil olahan tangan warga Kampung Saukabu. Diproses tanpa pemanasan tinggi sehingga nutrisi kelapa tetap terjaga. Cocok untuk perawatan kulit, rambut, dan suplemen kesehatan alami.",
+      "contact": "+6281234567890",
+      "image": "images/umkm/vco.jpg"
     },
     {
-      "name": "Anyaman Tangan — Tas",
-      "seller": "Ibu-ibu Kampung Saukabu",
-      "description": "Tas anyaman tangan khas Saukabu, dibuat oleh ibu-ibu kampung dengan teknik tradisional turun-temurun menggunakan daun pandan dan rotan lokal. Setiap tas adalah karya seni yang unik dan tidak ada yang sama persis.",
-      "phone": "6285220324783",
-      "image": ""
+      "name": "Kerajinan Noken Saukabu",
+      "desc": "Tas tradisional Noken yang dirajut manual menggunakan serat kulit kayu pilihan. Kuat, tahan lama, dan memiliki nilai seni budaya Papua yang tinggi. Tersedia dalam berbagai ukuran.",
+      "contact": "+6281234567891",
+      "image": "images/umkm/noken.jpg"
     },
     {
-      "name": "Anyaman Tangan — Topi",
-      "seller": "Ibu-ibu Kampung Saukabu",
-      "description": "Topi anyaman khas Saukabu — pelindung sempurna dari terik matahari Raja Ampat sekaligus oleh-oleh kenangan terbaik dari Pulau Fam. Dibuat tangan dengan teliti oleh pengrajin lokal Saukabu.",
-      "phone": "6285220324783",
-      "image": ""
+      "name": "Ikan Asin Khas Raja Ampat",
+      "desc": "Ikan laut segar tangkapan nelayan lokal yang diasinkan dan dijemur di bawah sinar matahari langsung. Tanpa bahan pengawet kimia, rasanya gurih dan tahan lama.",
+      "contact": "+6281234567892",
+      "image": "images/umkm/ikan-asin.jpg"
     },
     {
-      "name": "Ikan Laut Segar",
-      "seller": "Nelayan Kampung Saukabu",
-      "description": "Ikan laut segar hasil tangkapan nelayan Saukabu langsung dari perairan Segitiga Terumbu Karang Dunia. Tersedia berbagai jenis ikan konsumsi berkualitas tinggi, bisa dipesan sewaktu-waktu.",
-      "phone": "6285220324783",
-      "image": ""
+      "name": "Tikar Anyaman Daun Pandan",
+      "desc": "Tikar tradisional hasil anyaman rapi dari daun pandan laut yang tumbuh di pesisir Saukabu. Proses pengeringan alami membuatnya awet, nyaman digunakan, dan harum khas pandan.",
+      "contact": "+6281234567893",
+      "image": "images/umkm/tikar.jpg"
     },
     {
-      "name": "Kelapa Muda Segar",
-      "seller": "Kebun Warga Saukabu",
-      "description": "Kelapa muda segar langsung dari kebun warga kampung. Tidak ada yang lebih menyegarkan dari kelapa muda setelah seharian berpetualang di bawah terik matahari Raja Ampat.",
-      "phone": "6285220324783",
-      "image": ""
+      "name": "Kue Lontar Saukabu",
+      "desc": "Kue khas Papua dengan tekstur lembut di tengah dan renyah di pinggir. Dibuat fresh setiap hari dengan resep turun-temurun. Cocok untuk teman minum teh atau kopi di sore hari.",
+      "contact": "+6281234567894",
+      "image": "images/umkm/kue-lontar.jpg"
+    },
+    {
+      "name": "Abon Ikan Tuna Asap",
+      "desc": "Abon yang terbuat dari daging ikan tuna segar pilihan yang diasap. Proses pengasapan memberikan aroma khas yang menggugah selera. Sangat pas disajikan dengan nasi hangat.",
+      "contact": "+6281234567895",
+      "image": "images/umkm/abon.jpg"
+    },
+    {
+      "name": "Gelang Akar Bahar",
+      "desc": "Kerajinan aksesoris gelang yang terbuat dari akar bahar asli dari perairan Raja Ampat. Dipercaya masyarakat setempat memiliki khasiat kesehatan dan menangkal energi negatif.",
+      "contact": "+6281234567896",
+      "image": "images/umkm/gelang.jpg"
+    },
+    {
+      "name": "Madu Hutan Liar Pam",
+      "desc": "Madu hutan murni yang dipanen langsung dari hutan Pulau Fam. Memiliki rasa manis alami yang sedikit asam dan kaya akan antioksidan, sangat baik untuk menjaga stamina tubuh.",
+      "contact": "+6281234567897",
+      "image": "images/umkm/madu.jpg"
+    },
+    {
+      "name": "Kripik Sukun Gurih",
+      "desc": "Camilan renyah yang terbuat dari buah sukun pilihan yang tumbuh subur di kampung. Diiris tipis dan digoreng dengan bumbu rempah lokal, menjadikannya oleh-oleh favorit wisatawan.",
+      "contact": "+6281234567898",
+      "image": "images/umkm/kripik.jpg"
+    },
+    {
+      "name": "Topi Anyaman Daun Kelapa",
+      "desc": "Topi ramah lingkungan hasil kreasi anyaman daun kelapa muda. Sangat ringan dan sejuk saat dipakai, cocok digunakan untuk melindungi kepala saat menjelajahi pantai di siang hari.",
+      "contact": "+6281234567899",
+      "image": "images/umkm/topi.jpg"
     }
   ]
 }
