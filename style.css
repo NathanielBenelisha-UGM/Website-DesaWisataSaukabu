@@ -425,6 +425,17 @@ h1, h2, h3 {
 .card h3 { margin-top: 14px; font-size: 22px; font-weight: 600; }
 .card p { margin-top: 12px; font-size: 14px; line-height: 1.65; color: rgba(22,35,31,0.72); flex: 1; }
 
+/* Card with photo (Atraksi) */
+.card.card-img { padding: 0; overflow: hidden; min-height: auto; }
+.card.card-img:hover { background: var(--paper); }
+.card-photo { overflow: hidden; aspect-ratio: 4/3; }
+.card-photo img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+.card.card-img:hover .card-photo img { transform: scale(1.06); }
+.card-body { padding: 22px 24px; display: flex; flex-direction: column; flex: 1; }
+.card-body .tag { font-family: var(--mono); font-size: 10px; color: var(--coral); text-transform: uppercase; letter-spacing: .08em; }
+.card-body h3 { margin-top: 10px; font-size: 18px; font-weight: 600; line-height: 1.2; }
+.card-body p { margin-top: 10px; font-size: 13.5px; line-height: 1.65; color: rgba(22,35,31,0.72); flex: 1; }
+
 /* ===================================================
    EKOWISATA (FAUNA)
    =================================================== */
@@ -972,4 +983,72 @@ footer { background: var(--ocean-deep); color: var(--paper); }
 .modal-nav button:hover {
   background: var(--coral);
   color: var(--ocean-deep);
+}
+
+/* ===================================================
+   FLORA
+   =================================================== */
+.flora-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 28px; }
+.flora-pdf-wrap {
+  width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #f5f5f0;
+  min-height: 80vh;
+  position: relative;
+}
+.flora-pdf-frame {
+  width: 100%;
+  height: 85vh;
+  border: none;
+  display: block;
+}
+.flora-pdf-fallback {
+  display: none;
+  padding: 60px;
+  text-align: center;
+  color: rgba(22,35,31,0.6);
+}
+
+/* ===================================================
+   RESPONSIVE MOBILE
+   =================================================== */
+@media (max-width: 900px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .natgeo-grid { grid-template-columns: repeat(2, 1fr); }
+  .about-grid { grid-template-columns: 1fr; gap: 40px; }
+  .prox-grid { grid-template-columns: 1fr; gap: 30px; }
+  .eco-stats { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .grid-3 { grid-template-columns: 1fr; }
+  .natgeo-grid { grid-template-columns: 1fr; }
+  .eco-stats { grid-template-columns: 1fr; }
+  .flora-pdf-frame { height: 60vh; }
+  
+  /* Hero */
+  h1 { font-size: 54px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); }
+  
+  /* Cards */
+  .hs-card { flex-direction: column; }
+  .hs-img-wrap { width: 100%; min-height: 220px; border-radius: 20px 20px 0 0; }
+  .hs-overlay-num { top: 15px; left: 15px; border-radius: 12px; }
+  .hs-body { padding: 24px; }
+  .hs-meta-row { flex-direction: column; gap: 12px; }
+  .hs-actions { flex-direction: column; }
+  .hs-actions .btn { width: 100%; text-align: center; }
+  
+  /* Footer & Layout */
+  .footer-top { grid-template-columns: 1fr; gap: 40px; }
+  .contact-cards { grid-template-columns: 1fr; }
+  .gal-grid { grid-template-columns: repeat(2, 1fr); }
+  .umkm-grid { grid-template-columns: 1fr; }
+  .akses-grid { grid-template-columns: 1fr; }
+  
+  /* Modal */
+  .modal-content img { max-height: 60vh; }
+  .modal-close { top: 10px; right: 20px; }
 }

@@ -6,7 +6,12 @@
       "tagline": "Ensuite bungalows di bawah pohon kelapa dengan snorkeling kelas dunia di depan pintu.",
       "description": "Saukabu Homestay menawarkan pengalaman menginap autentik di Pulau Fam dengan bungalow berkamar mandi dalam (ensuite). Diapit pohon kelapa dan menghadap langsung ke perairan biru jernih, homestay ini adalah titik terbaik menikmati sunset sambil minum kelapa muda gratis. Piaynemo, ikon Raja Ampat, hanya 10–15 menit perjalanan laut.",
       "facilities": "Shower dalam, kipas angin, WiFi, kasur, cermin, makan 4x sehari (snack pagi & sore + makan berat siang & malam), kelapa muda gratis",
-      "highlights": ["Snorkeling spot kelas dunia", "Dekat Piaynemo", "Makan 4x sehari", "Kelapa muda gratis"],
+      "highlights": [
+        "Snorkeling spot kelas dunia",
+        "Dekat Piaynemo",
+        "Makan 4x sehari",
+        "Kelapa muda gratis"
+      ],
       "price": "Rp 600.000/malam/orang",
       "rooms": "5 kamar (kapasitas 2 orang/kamar)",
       "transport": "Pam: 500rb | Waisai: 3,5jt | Sorong: 6jt (speedboat). Tur Piaynemo, Andau, Nusa Garden tersedia.",
@@ -20,7 +25,11 @@
       "tagline": "Tiga bungalow di pantai berpohon kelapa, pusat dari semua atraksi Kepulauan Pam.",
       "description": "Mamere Homestay terletak di pantai berpasir putih dan berbaris pohon kelapa yang teduh. Strategis sebagai basecamp untuk menjelajahi seluruh atraksi Kepulauan Pam dan Piaynemo. Tersedia pemesanan online melalui Stay Raja Ampat maupun Booking.com untuk kemudahan.",
       "facilities": "Kasur, toilet dalam, kipas angin, air sumur & galon, genset gratis siang hari",
-      "highlights": ["Pantai berpohon kelapa", "Akses ke semua atraksi Pam", "Tersedia di Booking.com"],
+      "highlights": [
+        "Pantai berpohon kelapa",
+        "Akses ke semua atraksi Pam",
+        "Tersedia di Booking.com"
+      ],
       "price": "Rp 400.000/malam (Stay Raja Ampat) | Rp 600.000/malam (Booking.com)",
       "rooms": "5 kamar (kapasitas 2–3 orang/kamar)",
       "transport": "Jemput dari Waisai, Sorong, dan Pam dengan berbagai kapasitas kapal (15PK–200PK). Tur Piaynemo, Andau, Telaga Bintang, Nusa Garden tersedia.",
@@ -34,7 +43,12 @@
       "tagline": "Homestay terbesar di Saukabu — 11 kamar VIP dengan danau, hiking, dan pantai menakjubkan.",
       "description": "Raja Ampat Sunrise adalah pilihan premium di Kepulauan Pam. Dengan 11 kamar VIP, homestay ini merupakan yang terbesar di Saukabu dan paling berpengalaman dalam melayani tamu dari berbagai negara (43 ulasan di StayRajaAmpat). Lokasinya dekat dengan danau pulau, jalur hiking, dan pantai-pantai spektakuler Pam — semuanya dalam jarak berjalan kaki.",
       "facilities": "Shower, kipas angin, WiFi, kamar mandi dalam, makan 3x sehari, genset by order",
-      "highlights": ["11 kamar VIP", "Terbesar di Saukabu", "43 ulasan positif", "Dekat danau & hiking"],
+      "highlights": [
+        "11 kamar VIP",
+        "Terbesar di Saukabu",
+        "43 ulasan positif",
+        "Dekat danau & hiking"
+      ],
       "price": "Rp 700.000/malam/orang | Rp 1.000.000/malam/2 orang",
       "rooms": "11 kamar VIP",
       "transport": "Waisai: Longboat 2,5jt (4 org) | Speedboat 6jt (4 org). Tur sekitar Pam tersedia.",
@@ -48,7 +62,12 @@
       "tagline": "Bungalow kayu bercat dengan kamar mandi ensuite di pantai pasir putih — sulit ditandingi.",
       "description": "Mandarou Homestay dikenal dengan kualitas bangunannya yang menonjol — bungalow berpanel kayu dengan jendela kaca dan kamar mandi dalam yang membuatnya sangat nyaman untuk standar homestay Raja Ampat. Letaknya di pantai pasir putih di jantung Kepulauan Pam, ideal untuk eksplorasi ke segala penjuru.",
       "facilities": "Shower dalam, kipas angin, kasur, makan 3x sehari, air sumur & galon, listrik PLN & genset gratis",
-      "highlights": ["Bungalow kayu berkualitas", "Pantai pasir putih", "11 ulasan positif", "Kamar mandi ensuite"],
+      "highlights": [
+        "Bungalow kayu berkualitas",
+        "Pantai pasir putih",
+        "11 ulasan positif",
+        "Kamar mandi ensuite"
+      ],
       "price": "Rp 500.000/malam/orang",
       "rooms": "8 kamar",
       "transport": "Jemput dari Waisai: Longboat 2,5jt (2 org) atau 3jt (3+ org). Tur tersedia.",
@@ -58,11 +77,16 @@
     },
     {
       "name": "Tanjung Mefiyai Homestay",
-      "owner": "Nataniek Fakdawer",
+      "owner": "Nataniel Fakdawer",
       "tagline": "Pantai putih sempurna, karang indah, danau pedalaman — pusat atraksi Piaynemo.",
       "description": "Tanjung Mefiyai merupakan salah satu homestay paling direkomendasikan di Kepulauan Pam (32 ulasan di StayRajaAmpat). Memiliki 8 kamar dalam 3 tipe — VIP tepi pantai, VIP darat, dan reguler — serta restoran sendiri. Lokasinya di titik strategis untuk mengakses Piaynemo, danau pedalaman, dan spot snorkeling terbaik. Paket snorkeling & diving tersedia.",
       "facilities": "Restoran, makan 3x sehari, kipas angin, selimut, bantal, kursi, WC dalam (VIP), WC luar (reguler)",
-      "highlights": ["32 ulasan di StayRajaAmpat", "Restoran sendiri", "Paket snorkeling & diving", "Akses danau & Piaynemo"],
+      "highlights": [
+        "32 ulasan di StayRajaAmpat",
+        "Restoran sendiri",
+        "Paket snorkeling & diving",
+        "Akses danau & Piaynemo"
+      ],
       "price": "VIP Pantai: Rp 600.000/org | VIP Darat: Rp 500.000/org | Reguler: Rp 450.000/org",
       "rooms": "8 kamar (3 VIP pantai, 3 VIP darat, 2 reguler)",
       "transport": "Longboat: Waisai 2,5jt | Kri 2jt | Batanta 2,5–3jt. Snorkeling 3 spot + Piaynemo: 1,5jt/perahu.",
@@ -76,7 +100,11 @@
       "tagline": "Retreat privat dan tenang — 2 kamar eksklusif untuk pengalaman menginap yang intim.",
       "description": "Saawinsrom adalah pilihan sempurna bagi pasangan atau teman perjalanan yang menginginkan suasana privat dan tenang di Raja Ampat. Hanya tersedia 2 kamar, menjamin ketenangan dan perhatian penuh dari tuan rumah. Dilengkapi WC dalam dan makan 3x sehari, cukup untuk memanjakan diri setelah seharian berpetualang.",
       "facilities": "WC dalam, makan 3x sehari, meja, kursi, kasur kapasitas 2 orang, listrik PLN & genset gratis",
-      "highlights": ["Hanya 2 kamar (sangat privat)", "WC dalam", "Suasana tenang & intim"],
+      "highlights": [
+        "Hanya 2 kamar (sangat privat)",
+        "WC dalam",
+        "Suasana tenang & intim"
+      ],
       "price": "Rp 600.000/malam",
       "rooms": "2 kamar (kapasitas 2 orang/kamar)",
       "transport": "Jemput dari Waisai (Longboat): 1,5jt (4 org). Trip Piaynemo: 1jt (4 org).",
@@ -90,7 +118,12 @@
       "tagline": "Empat bungalow di pantai pasir putih — homestay baru dengan keluarga yang sangat ramah.",
       "description": "Tara Fudin adalah homestay yang relatif baru namun sudah menuai ulasan sangat positif dari tamu internasional. Bungalow-bungalownya dalam kondisi prima karena masih baru, terletak di pantai berpasir putih yang indah di pesisir timur laut Pulau Pam. Keluarga Martin sangat ramah dan berusaha keras untuk kepuasan tamu. Kampung Saukabu hanya selangkah dari homestay ini.",
       "facilities": "Kasur, kipas angin, WC dalam (VIP), WC luar (reguler), makan 3x sehari, air & kelapa muda tersedia",
-      "highlights": ["Homestay baru & terawat", "Keluarga super ramah", "Pantai pasir putih", "Dekat Saukabu"],
+      "highlights": [
+        "Homestay baru & terawat",
+        "Keluarga super ramah",
+        "Pantai pasir putih",
+        "Dekat Saukabu"
+      ],
       "price": "Reguler: Rp 350.000/org | VIP: Rp 500.000/org",
       "rooms": "3 kamar (1 VIP, 2 reguler, kapasitas 2 orang)",
       "transport": "Longboat: Waisai 2,5jt | Arborek 1,5jt | Kri 2jt | Batanta 2,5jt. Trip Piaynemo, Andau, Pulau Nafsi: masing-masing 1jt.",
@@ -104,7 +137,12 @@
       "tagline": "Bungalow ensuite di pantai pasir putih — Piaynemo, manta, dan snorkeling kelas dunia.",
       "description": "Saubaryam Homestay menonjol dengan 3 bungalow berkamar mandi dalam (ensuite) yang langsung menghadap pantai pasir putih di jantung Kepulauan Pam. Spot snorkeling dan manta ray Andau sama-sama dekat dari sini. Dengan 6 ulasan positif di StayRajaAmpat, Saubaryam menjadi pilihan terpercaya bagi siapa saja yang ingin merasakan keajaiban bawah laut Pam.",
       "facilities": "Fasilitas standar, WC dalam, air sumur & galon, listrik PLN & genset gratis",
-      "highlights": ["Bungalow ensuite", "Pantai pasir putih", "Dekat spot manta ray", "6 ulasan positif"],
+      "highlights": [
+        "Bungalow ensuite",
+        "Pantai pasir putih",
+        "Dekat spot manta ray",
+        "6 ulasan positif"
+      ],
       "price": "Rp 500.000/orang",
       "rooms": "5 kamar (kapasitas 2–4 orang)",
       "transport": "Jemput Waisai (Longboat): 2,5jt. Trip Andau Manta Point: 1jt | Trip Piaynemo: hubungi langsung.",

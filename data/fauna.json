@@ -1,44 +1,394 @@
 {
   "items": [
     {
-      "nama_ilmiah": "Ptilinopus rivoli",
-      "nama_lokal": "Walik Dada Putih",
-      "famili": "Columbidae",
+      "nama_ilmiah": "Accipiter hiogaster",
+      "nama_lokal": "Elang-alap kelabu Papua",
+      "famili": "Accipitridae",
       "iucn": "LC",
       "cites": "II",
       "p106": "Dilindungi",
-      "deskripsi": "Walik Dada Putih adalah salah satu merpati buah paling elegan di Raja Ampat. Jantan dewasa memiliki bulu hijau zamrud berkilau di punggung dan sayap, dengan dada putih bersih yang kontras mencolok. Betina umumnya berwarna hijau seluruhnya. Spesies ini menghuni hutan primer dan tepi hutan, memakan aneka buah dan beri dari pohon tinggi. Di Saukabu, ia sering terdengar sebelum terlihat — suara panggilannya yang berulang menjadi penanda kehadiran hutan sehat di pulau ini.",
-      "image": "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-PtilinopusRivoli-WalikDadaPutih.jpeg"
+      "deskripsi": "Elang-alap kelabu Papua (Accipiter hiogaster) adalah spesies burung dari famili Accipitridae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Accipiter_hiogaster.jpg"
+    },
+    {
+      "nama_ilmiah": "Haliaeetus leucogaster",
+      "nama_lokal": "Elang laut dada putih",
+      "famili": "Accipitridae",
+      "iucn": "LC",
+      "cites": "II",
+      "p106": "Dilindungi",
+      "deskripsi": "Elang laut dada putih (Haliaeetus leucogaster) adalah spesies burung dari famili Accipitridae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Haliaeetus_leucogaster.jpg"
+    },
+    {
+      "nama_ilmiah": "Haliastur indus",
+      "nama_lokal": "Elang bondol",
+      "famili": "Accipitridae",
+      "iucn": "LC",
+      "cites": "II",
+      "p106": "Dilindungi",
+      "deskripsi": "Elang Bondol adalah elang berukuran sedang dengan tubuh putih bersih dan sayap cokelat kemerahan. Spesies ini adalah elang pesisir yang sangat mudah dijumpai di seluruh nusantara. Di Saukabu, ia sering terlihat melayang di atas pantai dan perairan, mencari ikan, crustasea, dan bangkai hewan laut.",
+      "image": "images/InventarisBurung/Haliastur_indus.jpg"
+    },
+    {
+      "nama_ilmiah": "Lophospiza trivirgata",
+      "nama_lokal": "Elang alap jambul",
+      "famili": "Accipitridae",
+      "iucn": "LC",
+      "cites": "II",
+      "p106": "Dilindungi",
+      "deskripsi": "Elang alap jambul (Lophospiza trivirgata) adalah spesies burung dari famili Accipitridae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Lophospiza_trivirgata.jpg"
+    },
+    {
+      "nama_ilmiah": "Tanysiptera galatea",
+      "nama_lokal": "Cekakak pita biasa",
+      "famili": "Alcedinidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Cekakak Sega adalah kingfisher bermahkota biru cerah dengan ekor panjang berwarna putih yang sangat khas. Spesies yang cantik ini menghuni hutan dataran rendah dan tepi sungai. Di Raja Ampat, ia termasuk spesies yang ikonik dan menjadi daya tarik bagi pengamat burung dari seluruh dunia.",
+      "image": "images/InventarisBurung/Tanysiptera_galatea.jpg"
+    },
+    {
+      "nama_ilmiah": "Todiramphus sanctus",
+      "nama_lokal": "Cekakak suci",
+      "famili": "Alcedinidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Cekakak Suci adalah kingfisher berukuran sedang dengan punggung biru-hijau mengkilap dan dada putih bersih. Spesies migran parsial ini sering terlihat di tepi pantai, mangrove, dan kebun kelapa di sekitar Saukabu. Ia merupakan salah satu burung pesisir yang paling mudah dijumpai di kepulauan Raja Ampat.",
+      "image": "images/InventarisBurung/Todiramphus_sanctus.jpg"
+    },
+    {
+      "nama_ilmiah": "Todiramphus saurophagus",
+      "nama_lokal": "Cekakak pantai",
+      "famili": "Alcedinidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Dilindungi",
+      "deskripsi": "Cekakak pantai (Todiramphus saurophagus) adalah spesies burung dari famili Alcedinidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Todiramphus_saurophagus.jpg"
+    },
+    {
+      "nama_ilmiah": "Tadorna radjah",
+      "nama_lokal": "Umukia raja",
+      "famili": "Anatidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Umukia raja (Tadorna radjah) adalah spesies burung dari famili Anatidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Tadorna_radjah.jpg"
+    },
+    {
+      "nama_ilmiah": "Ardea alba",
+      "nama_lokal": "Cangak besar",
+      "famili": "Ardeidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Dilindungi",
+      "deskripsi": "Cangak besar (Ardea alba) adalah spesies burung dari famili Ardeidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Ardea_alba.jpg"
+    },
+    {
+      "nama_ilmiah": "Egretta sacra",
+      "nama_lokal": "Kuntul karang",
+      "famili": "Ardeidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Kuntul Karang adalah kuntul yang hidup di ekosistem pesisir batu karang dan pantai berbatu. Terdapat dua morfa: putih seluruhnya, atau abu-abu gelap seluruhnya. Ia adalah predator aktif ikan dan crustasea di zona pasang surut. Sering terlihat berdiri diam di atas batu karang yang diperciki ombak sambil mengincar mangsa.",
+      "image": "images/InventarisBurung/Egretta_sacra.jpg"
+    },
+    {
+      "nama_ilmiah": "Artamus leucorynchus",
+      "nama_lokal": "Kekep babi",
+      "famili": "Artamidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Kekep babi (Artamus leucorynchus) adalah spesies burung dari famili Artamidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Artamus_leucorynchus.jpg"
+    },
+    {
+      "nama_ilmiah": "Esacus magnirostris",
+      "nama_lokal": "Wili-wili besar",
+      "famili": "Burhinidae",
+      "iucn": "NT",
+      "cites": "–",
+      "p106": "Dilindungi",
+      "deskripsi": "Wili-wili besar (Esacus magnirostris) adalah spesies burung dari famili Burhinidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus NT.",
+      "image": "images/InventarisBurung/Esacus_magnirostris.jpg"
+    },
+    {
+      "nama_ilmiah": "Coracina papuensis",
+      "nama_lokal": "Kepudang-sungu Papua",
+      "famili": "Campephagidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Kepudang-sungu Papua (Coracina papuensis) adalah spesies burung dari famili Campephagidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Coracina_papuensis.jpg"
+    },
+    {
+      "nama_ilmiah": "Caprimulgus macrurus",
+      "nama_lokal": "Cabak malam besar",
+      "famili": "Caprimulgidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Cabak malam besar (Caprimulgus macrurus) adalah spesies burung dari famili Caprimulgidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Caprimulgus_macrurus.jpg"
+    },
+    {
+      "nama_ilmiah": "Cacatua galerita",
+      "nama_lokal": "Kakatua koki",
+      "famili": "Cacatuidae",
+      "iucn": "LC",
+      "cites": "II",
+      "p106": "Dilindungi",
+      "deskripsi": "Kakatua koki (Cacatua galerita) adalah spesies burung dari famili Cacatuidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Cacatua_galerita.jpg"
+    },
+    {
+      "nama_ilmiah": "Ducula aenea",
+      "nama_lokal": "Pergam hijau",
+      "famili": "Columbidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Pergam hijau (Ducula aenea) adalah spesies burung dari famili Columbidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Ducula_aenea.jpg"
+    },
+    {
+      "nama_ilmiah": "Ducula myristicivora",
+      "nama_lokal": "Pergam rempah",
+      "famili": "Columbidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Pergam rempah (Ducula myristicivora) adalah spesies burung dari famili Columbidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Ducula_myristicivora.png"
+    },
+    {
+      "nama_ilmiah": "Macropygia doreya",
+      "nama_lokal": "Uncal sultan",
+      "famili": "Columbidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Uncal sultan (Macropygia doreya) adalah spesies burung dari famili Columbidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Macropygia_doreya.jpg"
+    },
+    {
+      "nama_ilmiah": "Ptilinopus rivoli",
+      "nama_lokal": "Walik dada putih",
+      "famili": "Columbidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Walik Dada Putih adalah merpati buah paling elegan di Raja Ampat. Jantan dewasa memiliki bulu hijau zamrud berkilau dengan dada putih bersih yang kontras. Betina umumnya hijau seluruhnya. Spesies ini menghuni hutan primer dan tepi hutan, memakan buah dan beri dari pohon tinggi. Di Saukabu, ia sering terdengar sebelum terlihat — suara panggilannya yang berulang menjadi penanda kehadiran hutan sehat.",
+      "image": "images/InventarisBurung/Ptilinopus_rivoli.jpg"
+    },
+    {
+      "nama_ilmiah": "Corvus orru",
+      "nama_lokal": "Gagak torres",
+      "famili": "Corvidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Dilindungi",
+      "deskripsi": "Gagak Torresian adalah gagak hitam legam berukuran besar yang sangat cerdas dan adaptif. Ia adalah omnivora oportunistik yang memakan hampir segalanya: bangkai, serangga, telur burung lain, buah, dan sampah. Di Saukabu, gagak terlihat berkelompok dan sering berinteraksi dengan aktivitas warga kampung.",
+      "image": "images/InventarisBurung/Corvus_orru.jpg"
+    },
+    {
+      "nama_ilmiah": "Eurystomus orientalis",
+      "nama_lokal": "Tiong-lampu biasa",
+      "famili": "Coraciidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Tiong-lampu biasa (Eurystomus orientalis) adalah spesies burung dari famili Coraciidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Eurystomus_orientalis.jpg"
+    },
+    {
+      "nama_ilmiah": "Dicrurus bracteatus",
+      "nama_lokal": "Srigunting Papua",
+      "famili": "Dicruridae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Srigunting Perahu adalah burung hitam mengkilap berukuran sedang dengan ekor bercabang seperti garpu yang khas. Ia adalah pemburu serangga yang sangat agresif dan sering menyerang burung yang lebih besar — termasuk elang — untuk melindungi wilayahnya. Suaranya yang keras dan bervariasi menjadikannya penghuni hutan yang mudah dikenali.",
+      "image": "images/InventarisBurung/Dicrurus_bracteatus.jpg"
+    },
+    {
+      "nama_ilmiah": "Fregata ariel",
+      "nama_lokal": "Cikalang kecil",
+      "famili": "Fregatidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Cikalang kecil (Fregata ariel) adalah spesies burung dari famili Fregatidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Fregata_ariel.jpg"
+    },
+    {
+      "nama_ilmiah": "Fregata minor",
+      "nama_lokal": "Cikalang besar",
+      "famili": "Fregatidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Dilindungi",
+      "deskripsi": "Cikalang Besar adalah burung laut yang sangat mahir terbang, dengan rentang sayap lebih dari dua meter. Spesies ini tidak bisa mendarat di air karena bulunya tidak tahan air, sehingga ia menangkap ikan langsung dari permukaan laut atau merampas dari burung lain (kleptoparasitisme). Kantung gular merah pada jantan menjadi daya tarik musim kawin yang menakjubkan.",
+      "image": "images/InventarisBurung/Fregata_minor.jpg"
+    },
+    {
+      "nama_ilmiah": "Hirundo tahitica",
+      "nama_lokal": "Layang-layang batu",
+      "famili": "Hirundinidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Layang-layang batu (Hirundo tahitica) adalah spesies burung dari famili Hirundinidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Hirundo_tahitica.jpg"
+    },
+    {
+      "nama_ilmiah": "Megapodius freycinet",
+      "nama_lokal": "Gosong kelam",
+      "famili": "Megapodiidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Dilindungi",
+      "deskripsi": "Maleo Gosong adalah megapoda berukuran ayam yang tidak mengerami telurnya sendiri, melainkan mengubur telur di dalam gundukan pasir atau tanah hangat. Panas bumi dan panas matahari menggantikan peran induk dalam proses penetasan. Spesies ini adalah insinyur alam yang luar biasa dan sangat penting bagi keanekaragaman hayati Papua.",
+      "image": "images/InventarisBurung/Megapodius_freycinet.jpg"
+    },
+    {
+      "nama_ilmiah": "Gavicalis versicolor",
+      "nama_lokal": "Isap-madu kepodang",
+      "famili": "Meliphagidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Isap-madu kepodang (Gavicalis versicolor) adalah spesies burung dari famili Meliphagidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Gavicalis_versicolor.jpg"
+    },
+    {
+      "nama_ilmiah": "Microptilotis analogus",
+      "nama_lokal": "Ajwoy mimik",
+      "famili": "Meliphagidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Ajwoy mimik (Microptilotis analogus) adalah spesies burung dari famili Meliphagidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Microptilotis_analogus.png"
+    },
+    {
+      "nama_ilmiah": "Merops ornatus",
+      "nama_lokal": "Kirik-kirik pelangi",
+      "famili": "Meropidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Kirik-kirik pelangi (Merops ornatus) adalah spesies burung dari famili Meropidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Merops_ornatus.jpg"
+    },
+    {
+      "nama_ilmiah": "Myiagra alecto",
+      "nama_lokal": "Sikatan kilap",
+      "famili": "Monarchidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Sikatan kilap (Myiagra alecto) adalah spesies burung dari famili Monarchidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Myiagra_alecto.jpg"
+    },
+    {
+      "nama_ilmiah": "Cinnyris jugularis",
+      "nama_lokal": "Madu sriganti",
+      "famili": "Nectariniidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Madu sriganti (Cinnyris jugularis) adalah spesies burung dari famili Nectariniidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Cinnyris_jugularis.jpg"
+    },
+    {
+      "nama_ilmiah": "Pachycephala simplex",
+      "nama_lokal": "Kancilan kelabu",
+      "famili": "Pachycephalidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Kancilan kelabu (Pachycephala simplex) adalah spesies burung dari famili Pachycephalidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Pachycephala_simplex.jpg"
+    },
+    {
+      "nama_ilmiah": "Pandion haliaetus",
+      "nama_lokal": "Elang tiram (Osprey)",
+      "famili": "Pandionidae",
+      "iucn": "LC",
+      "cites": "II",
+      "p106": "Dilindungi",
+      "deskripsi": "Elang Tiram adalah elang spesialis pemangsa ikan yang tersebar di seluruh dunia. Ia memiliki adaptasi kaki yang unik — dua jari menghadap depan, dua ke belakang — untuk mencengkeram ikan yang licin. Dikenal menyelam kaki-pertama ke dalam air untuk menangkap ikan. Di Raja Ampat, spesies migran ini terlihat terutama saat musim migrasi.",
+      "image": "images/InventarisBurung/Pandion_haliaetus.png"
+    },
+    {
+      "nama_ilmiah": "Passer montanus",
+      "nama_lokal": "Burung gereja erasia",
+      "famili": "Passeridae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Burung gereja erasia (Passer montanus) adalah spesies burung dari famili Passeridae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Passer_montanus.jpg"
     },
     {
       "nama_ilmiah": "Eclectus roratus",
-      "nama_lokal": "Nuri Kepala Biru (Burung Bayan)",
-      "famili": "Psittacidae",
+      "nama_lokal": "Nuri bayan",
+      "famili": "Psittaculidae",
       "iucn": "LC",
       "cites": "II",
       "p106": "Dilindungi",
-      "deskripsi": "Burung Bayan atau Eclectus adalah salah satu spesies beo paling mencolok di dunia, dengan perbedaan warna jantan-betina yang ekstrem hingga sempat dikira dua spesies berbeda. Jantan berwarna hijau cerah dengan paruh merah-oranye, sementara betina berwarna merah tua mencolok dengan perut biru dan paruh hitam. Di Saukabu, keduanya sering terlihat berpasangan di tajuk pohon tinggi. Suara panggilannya yang keras menjadi salah satu ikon bunyi hutan Papua.",
-      "image": "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-EclectusRoratus.jpeg"
+      "deskripsi": "Burung Bayan adalah salah satu spesies beo paling mencolok di dunia, dengan perbedaan warna jantan-betina yang ekstrem. Jantan berwarna hijau cerah dengan paruh merah-oranye, betina berwarna merah tua dengan perut biru dan paruh hitam. Di Saukabu, keduanya sering terlihat berpasangan di tajuk pohon tinggi. Suara panggilannya yang keras menjadi ikon bunyi hutan Papua.",
+      "image": "images/InventarisBurung/Eclectus_roratus.jpg"
+    },
+    {
+      "nama_ilmiah": "Eos squamata",
+      "nama_lokal": "Nuri kalung ungu",
+      "famili": "Psittaculidae",
+      "iucn": "LC",
+      "cites": "II",
+      "p106": "Dilindungi",
+      "deskripsi": "Nuri kalung ungu (Eos squamata) adalah spesies burung dari famili Psittaculidae yang berhasil didokumentasikan di sekitar Kampung Saukabu, Pulau Fam, Raja Ampat. Menurut daftar merah IUCN, spesies ini berstatus LC.",
+      "image": "images/InventarisBurung/Eos_squamata.jpg"
     },
     {
       "nama_ilmiah": "Geoffroyus geoffroyi",
-      "nama_lokal": "Nuri Pipi-Merah",
-      "famili": "Psittacidae",
+      "nama_lokal": "Nuri pipi merah",
+      "famili": "Psittaculidae",
       "iucn": "LC",
       "cites": "II",
       "p106": "Dilindungi",
-      "deskripsi": "Nuri Pipi-Merah adalah nuri berukuran sedang yang sangat aktif dan berisik. Jantan memiliki ciri khas kepala merah muda keunguan yang unik, sementara betina berkepala cokelat kehijauan. Keduanya memiliki tubuh hijau dominan dengan perpaduan biru dan merah di sayap. Spesies ini memiliki asosiasi kuat dengan hutan primer dan sekunder yang masih baik kondisinya. Kelompok kecil Nuri Pipi-Merah kerap terlihat terbang cepat di antara kanopi pohon buah-buahan di sekitar Kampung Saukabu.",
-      "image": "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-GeoffroyusGeoffroyi.jpeg"
+      "deskripsi": "Nuri Pipi-Merah adalah nuri berukuran sedang yang sangat aktif. Jantan memiliki kepala merah muda keunguan yang khas, betina berkepala cokelat. Keduanya bertubuh hijau dominan. Spesies ini berasosiasi kuat dengan hutan primer yang masih baik. Kelompok kecil Nuri Pipi-Merah kerap terlihat terbang cepat di antara kanopi pohon buah di sekitar Kampung Saukabu.",
+      "image": "images/InventarisBurung/Geoffroyus_geoffroyi.jpg"
     },
     {
       "nama_ilmiah": "Rhipidura leucophrys",
-      "nama_lokal": "Kipasan Belang",
+      "nama_lokal": "Kipasan kebun",
       "famili": "Rhipiduridae",
       "iucn": "LC",
-      "cites": "-",
-      "p106": "-",
-      "deskripsi": "Kipasan Belang adalah burung kecil yang sangat aktif, lincah, dan tidak takut pada manusia — menjadikannya salah satu burung paling mudah dijumpai di Saukabu. Dengan bulu hitam-putih kontras dan ekor yang selalu dikibas-kibaskan, ia kerap menjadi teman setia saat berjalan di sekitar kampung dan tepi pantai. Spesies ini memangsa serangga kecil di udara dengan manuver terbang yang cepat dan akrobatik. Kehadirannya menjadi indikator ekosistem yang masih terjaga.",
-      "image": "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-RhipiduraLeucophrys.jpeg"
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Kipasan Belang adalah burung kecil yang aktif dan tidak takut manusia. Dengan bulu hitam-putih kontras dan ekor yang selalu dikibas-kibaskan, ia menjadi teman setia saat berjalan di sekitar kampung. Spesies ini memangsa serangga kecil di udara dengan manuver terbang yang akrobatik. Kehadirannya menjadi indikator ekosistem yang masih terjaga.",
+      "image": "images/InventarisBurung/Rhipidura_leucophrys.jpg"
+    },
+    {
+      "nama_ilmiah": "Aplonis metallica",
+      "nama_lokal": "Perling ungu (mata merah)",
+      "famili": "Sturnidae",
+      "iucn": "LC",
+      "cites": "–",
+      "p106": "Tidak dilindungi",
+      "deskripsi": "Perling Sutera adalah burung jalak berukuran sedang dengan bulu hitam mengkilap berwarna hijau-ungu metalik saat terkena cahaya. Spesies ini hidup berkoloni besar dan membangun sarang menggantung di pohon-pohon tinggi, sering kali dalam jumlah ratusan sarang dalam satu pohon. Di Saukabu, koloninya menjadi pemandangan yang ramai dan ribut setiap sore.",
+      "image": "images/InventarisBurung/Aplonis_metallica.jpg"
     }
   ]
 }

@@ -25,7 +25,8 @@
       <div class="navlinks" id="navlinks">
         <a href="#tentang">Tentang</a>
         <a href="#atraksi">Atraksi</a>
-        <a href="#ekowisata">Ekowisata</a>
+        <a href="#ekowisata">Fauna</a>
+        <a href="#flora">Flora</a>
         <a href="#homestay">Homestay</a>
         <a href="#umkm">UMKM</a>
         <a href="#berita">Berita</a>
@@ -98,6 +99,11 @@
         <h3 class="dash-title">Keanekaragaman Hayati</h3>
         <p class="dash-desc">Beragam spesies burung endemik dan satwa liar lainnya.</p>
       </a>
+      <a href="#flora" class="dash-card fade-up visible">
+        <div class="dash-icon">🌿</div>
+        <h3 class="dash-title">Ensiklopedia Flora</h3>
+        <p class="dash-desc">Kekayaan tumbuhan dan vegetasi Pulau Fam, Saukabu.</p>
+      </a>
       <a href="#homestay" class="dash-card fade-up visible">
         <div class="dash-icon">🏠</div>
         <h3 class="dash-title">Homestay</h3>
@@ -152,10 +158,8 @@
               </div>
             </div>
 
-            <!-- Placeholder karena foto desa masih menyusul -->
-            <div class="photo-placeholder"
-              style="margin-top:18px; aspect-ratio:16/9; display:flex; flex-direction:column; justify-content:center;">
-              <span>📸 Foto Kampung Saukabu<br><small>Menunggu dokumentasi dari tim KKN</small></span>
+            <div style="margin-top:18px; border-radius: 8px; overflow: hidden; border: 4px solid var(--paper); box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+              <img src="images/foto-kampung-saukabu.jpg" alt="Foto Kampung Saukabu" style="width: 100%; height: auto; display: block; aspect-ratio: 16/9; object-fit: cover;" onerror="this.onerror=null; this.src='https://placehold.co/800x450/e0dcd3/16231f?text=Foto+Kampung+Saukabu\n(Simpan+foto+sebagai+images/foto-kampung-saukabu.jpg)';">
             </div>
           </div>
         </div>
@@ -172,7 +176,7 @@
         <div class="eyebrow" style="color:var(--coral);">Letak Istimewa</div>
         <div class="prox-grid">
           <div class="prox-visual">
-            <img src="images/KKN-PPM-UGM_Periode2_2026-DockKapalPiaynemo.jpg" alt="Dermaga menuju Piaynemo"
+            <img src="images/galeri/DockPiaynemo.jpg" alt="Dermaga menuju Piaynemo"
               class="prox-img">
             <div class="prox-badge">
               <span class="time">15'</span>
@@ -204,32 +208,67 @@
         <div class="eyebrow">Atraksi & Aktivitas</div>
         <h2 class="section-title">Lebih dari sekadar pantai — kehidupan kampung yang autentik</h2>
 
-        <!-- =====================================================
-      ✏️ CARA TAMBAH ATRAKSI BARU:
-      Salin blok <div class="card"> ... </div> di bawah,
-      tempel setelah kartu terakhir, lalu ubah isinya.
-    ===================================================== -->
         <div class="grid-3">
-          <div class="card">
-            <div class="tag">Petualangan</div>
-            <h3>Susur Gua &amp; Artefak</h3>
-            <p>Jelajahi gua-gua di sekitar kampung yang menyimpan jejak lanskap karst dan saksi bisu sejarah melalui
-              berbagai artefak peninggalan pendahulu yang masih terjaga.</p>
+          <div class="card card-img">
+            <div class="card-photo">
+              <img src="images/galeri/ArtefakGua1.jpg" alt="Artefak di Gua Saukabu" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tag">Petualangan</div>
+              <h3>Susur Gua &amp; Artefak</h3>
+              <p>Jelajahi gua-gua kapur di sekitar kampung yang menyimpan artefak peninggalan pendahulu yang masih terjaga. Dinding gua menjadi saksi bisu kisah leluhur Saukabu selama berabad-abad — sebuah perjalanan sejarah yang benar-benar langka.</p>
+            </div>
           </div>
-          <div class="card">
-            <div class="tag">Jejak Pendahulu</div>
-            <h3>Buku Album Saukabu</h3>
-            <p>Menelusuri sejarah awal dan dokumentasi lawas Desa Saukabu, termasuk inisiatif awal kawasan Taman
-              Perlindungan Laut dari catatan Sea Sanctuaries Trust.</p>
+          <div class="card card-img">
+            <div class="card-photo">
+              <img src="images/buku_album/Buku_Album_Saukabu-01.png" alt="Buku Album Saukabu" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tag">Jejak Pendahulu</div>
+              <h3>Buku Album Saukabu</h3>
+              <p>Telusuri sejarah dan dokumentasi awal Kampung Saukabu, termasuk inisiatif kawasan Taman Perlindungan Laut dari catatan Sea Sanctuaries Trust. Sebuah arsip hidup tentang kampung yang tumbuh bersama lautnya.</p>
+            </div>
           </div>
-          <div class="card">
-            <div class="tag">Ekowisata</div>
-            <h3>Pengamatan Burung</h3>
-            <p>Amati langsung ragam spesies burung eksotis dan endemik di habitat aslinya di sekitar desa dan pulau
-              tempat
-              kami mengabdi.</p>
+          <div class="card card-img">
+            <div class="card-photo">
+              <img src="images/fauna/Eclectus_roratus.jpeg" alt="Burung Bayan (Eclectus roratus)" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tag">Alam Liar</div>
+              <h3>Pengamatan Burung</h3>
+              <p>Amati langsung spesies burung endemik Papua seperti Burung Bayan, Nuri Pipi-Merah, dan Walik Dada Putih di habitat aslinya. Waktu terbaik adalah pagi hari — bawa teropong dan nikmati serenade alam liar Pulau Fam.</p>
+            </div>
           </div>
-          <!-- Card untuk atraksi lain (Snorkeling, Ketam Kenari, Anyaman, VCO, dll) disembunyikan sementara menunggu kelengkapan dokumentasi dari tim KKN -->
+          <div class="card card-img">
+            <div class="card-photo">
+              <img src="images/galeri/DanauPulauFam.jpg" alt="Danau terbesar di Pulau Fam" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tag">Alam &amp; Hiking</div>
+              <h3>Danau Pedalaman Pulau Fam</h3>
+              <p>Pulau Fam menyimpan danau pedalaman terbesar di gugusan kepulauan ini. Jalur hiking menuju danau melewati hutan tropis yang lebat dan sering menjadi tempat pengamatan satwa liar yang tidak akan terlupakan.</p>
+            </div>
+          </div>
+          <div class="card card-img">
+            <div class="card-photo">
+              <img src="images/galeri/PemandanganPiaynemo.jpg" alt="Puncak Piaynemo Raja Ampat" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tag">Ikon Raja Ampat</div>
+              <h3>Puncak Piaynemo</h3>
+              <p>Dari Saukabu, Puncak Piaynemo — lanskap karst paling ikonik di dunia — hanya 10–15 menit perjalanan laut. Pemandangan gugusan pulau dari atas puncaknya adalah salah satu yang paling menakjubkan yang pernah ada.</p>
+            </div>
+          </div>
+          <div class="card card-img">
+            <div class="card-photo">
+              <img src="images/galeri/DockPiaynemo.jpg" alt="Snorkeling di perairan Saukabu" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tag">Bawah Laut</div>
+              <h3>Snorkeling &amp; Manta Ray</h3>
+              <p>Perairan di sekitar Kepulauan Pam termasuk dalam Segitiga Terumbu Karang Dunia. Snorkeling dari tepian homestay sudah menawarkan terumbu karang yang spektakuler, sementara Andau adalah spot legendaris untuk berenang bersama Manta Ray.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -325,6 +364,48 @@
       </div>
     </section>
   </div> <!-- /page-ekowisata -->
+
+  <!-- ===== VIEW: FLORA ===== -->
+  <div id="page-flora" class="page-view">
+    <!-- FLORA HERO -->
+    <div class="eco-hero" style="min-height:50vh;">
+      <div class="eco-hero-overlay"></div>
+      <div class="eco-hero-content wrap">
+        <a href="#dashboard" class="back-btn" style="position:relative;z-index:3;margin-bottom:20px;display:inline-block;border-color:rgba(255,255,255,0.4);color:rgba(255,255,255,0.8);">← Kembali</a>
+        <div class="eyebrow" style="color:var(--sand);">Ensiklopedia Tumbuhan</div>
+        <h1 class="eco-hero-title">Flora<br><em>Kampung Saukabu</em></h1>
+        <p class="eco-hero-sub">Dokumentasi kekayaan vegetasi dan tumbuhan yang tumbuh di Pulau Fam dan sekitar Kampung Saukabu, disusun oleh Tim KKN-PPM UGM Periode 2 Tahun 2026.</p>
+      </div>
+    </div>
+
+    <!-- FLORA STATS -->
+    <div class="eco-stats">
+      <div class="eco-stat"><div class="eco-stat-num">Flora</div><div class="eco-stat-label">Keanekaragaman Tumbuhan</div></div>
+      <div class="eco-stat"><div class="eco-stat-num">Pulau Fam</div><div class="eco-stat-label">Wilayah Dokumentasi</div></div>
+      <div class="eco-stat"><div class="eco-stat-num">2026</div><div class="eco-stat-label">Tahun Inventarisasi</div></div>
+      <div class="eco-stat"><div class="eco-stat-num">KKN UGM</div><div class="eco-stat-label">Tim Penyusun</div></div>
+    </div>
+
+    <!-- PDF EMBED -->
+    <section class="eco-article" style="padding: 60px 0;">
+      <div class="wrap">
+        <div class="eyebrow">Dokumen Lengkap</div>
+        <h2 style="margin-bottom:8px;">Ensiklopedia Flora Saukabu</h2>
+        <p style="color:rgba(22,35,31,0.7); margin-bottom:28px; font-size:14px;">Scroll untuk membaca dokumen. Klik tombol di bawah untuk mengunduh atau membuka di tab baru.</p>
+        <div class="flora-actions">
+          <a href="Ensiklopedia_Flora_Saukabu (1).pdf" target="_blank" class="btn solid">Buka di Tab Baru ↗</a>
+          <a href="Ensiklopedia_Flora_Saukabu (1).pdf" download class="btn ghost">⬇ Unduh PDF</a>
+        </div>
+        <div class="flora-pdf-wrap">
+          <iframe src="Ensiklopedia_Flora_Saukabu (1).pdf" class="flora-pdf-frame" title="Ensiklopedia Flora Saukabu"></iframe>
+          <div class="flora-pdf-fallback">
+            <p>Browser Anda tidak mendukung tampilan PDF langsung.</p>
+            <a href="Ensiklopedia_Flora_Saukabu (1).pdf" target="_blank" class="btn solid">Klik di sini untuk membuka PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div> <!-- /page-flora -->
 
   <!-- ===== VIEW: HOMESTAY ===== -->
   <div id="page-homestay" class="page-view">
@@ -458,26 +539,26 @@
          dan tempel di bawahnya
     ===================================================== -->
         <div class="gal-grid">
-          <div class="gal-slot"><img src="images/KKN-PPM-UGM_Periode2_2026-LandscapePemandanganPiaynemo.jpg"
+          <div class="gal-slot"><img src="images/galeri/PemandanganPiaynemo.jpg"
               alt="Lanskap Puncak Piaynemo, Raja Ampat"></div>
           <div class="gal-slot album-slot" onclick="openAlbum()" title="Klik untuk membaca Buku Album (21 Halaman)">
-            <img src="images/BukuAlbumSaukabu_FIXED/Buku%20Album%20Saukabu-01.png"
+            <img src="images/buku_album/Buku_Album_Saukabu-01.png"
               alt="Buku Album Saukabu - Taman Perlindungan Laut">
             <div class="album-overlay">Buka Album (21 Halaman)</div>
           </div>
-          <div class="gal-slot"><img src="images/KKN-PPM-UGM_Periode2_2026-ArtefakGua1.jpg"
+          <div class="gal-slot"><img src="images/galeri/ArtefakGua1.jpg"
               alt="Artefak peninggalan pendahulu di Gua"></div>
           <div class="gal-slot"><img
-              src="images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-PtilinopusRivoli-WalikDadaPutih.jpeg"
+              src="images/fauna/Ptilinopus_rivoli.jpeg"
               alt="Walik Dada Putih (Ptilinopus rivoli)"></div>
-          <div class="gal-slot"><img src="images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-EclectusRoratus.jpeg"
+          <div class="gal-slot"><img src="images/fauna/Eclectus_roratus.jpeg"
               alt="Burung Bayan (Eclectus roratus)"></div>
-          <div class="gal-slot"><img src="images/KKN-PPM-UGM_Periode2_2026-DanauTerbesarDiPulauFam.jpg"
+          <div class="gal-slot"><img src="images/galeri/DanauPulauFam.jpg"
               alt="Danau terbesar di Pulau Fam, Saukabu"></div>
           <div class="gal-slot"><img
-              src="images/KKN-PPM-UGM_Periode2_2026-KoordinasiPemetaanDanPemasanganPetaSaukabuAtauPulauFam.jpg"
+              src="images/kegiatan/KoordinasiPemetaan.jpg"
               alt="Koordinasi pemetaan wilayah Saukabu"></div>
-          <div class="gal-slot"><img src="images/KKN-PPM-UGM_Periode2_2026-PerayaanUlangTahunSaukabuKe26-1.jpg"
+          <div class="gal-slot"><img src="images/kegiatan/PerayaanHUT26.jpg"
               alt="Perayaan HUT Saukabu ke-26"></div>
         </div>
       </div>
@@ -487,7 +568,7 @@
     <section class="faq section" id="faq">
       <div class="wrap">
         <div class="eyebrow">Pertanyaan Umum</div>
-        <h2 class="section-title">Yang sering ditanyakan wisatawan</h2>
+        <h2 class="section-title">Yang sering ditanyakan pengunjung</h2>
 
         <!-- =====================================================
       ✏️ CARA TAMBAH FAQ BARU:
@@ -497,7 +578,7 @@
         <div class="faq-list">
           <details class="faq-item">
             <summary>Apakah ada homestay di Saukabu?</summary>
-            <p>Ya, tersedia 9 homestay milik warga kampung. Kunjungi bagian <a href="#homestay"
+            <p>Ya, tersedia 8 homestay milik warga kampung. Kunjungi bagian <a href="#homestay"
                 style="color:var(--coral);">Homestay</a> untuk melihat daftar dan menghubungi langsung pemiliknya via
               WhatsApp.</p>
           </details>
@@ -590,30 +671,52 @@
 
   <script>
     // ===== SPA ROUTING LOGIC =====
+    // Mapping khusus: hash → page-id
+    const routeMap = {
+      '#beranda': 'page-dashboard',
+      '#dashboard': 'page-dashboard',
+      '#tentang': 'page-tentang',
+      '#piaynemo': 'page-tentang',
+      '#atraksi': 'page-atraksi',
+      '#ekowisata': 'page-ekowisata',
+      '#homestay': 'page-homestay',
+      '#umkm': 'page-umkm',
+      '#berita': 'page-berita',
+      '#galeri': 'page-galeri',
+      '#akses': 'page-galeri',
+      '#faq': 'page-galeri',
+      '#kontak': 'page-galeri',  // footer kontak ada di page-galeri
+      '#flora': 'page-flora'
+    };
+
     function handleRouting() {
       const hash = window.location.hash || '#dashboard';
       const pages = document.querySelectorAll('.page-view');
-      let found = false;
+      const targetId = routeMap[hash] || null;
 
       pages.forEach(page => {
-        if (`#${page.id.replace('page-', '')}` === hash) {
+        if (targetId ? page.id === targetId : `#${page.id.replace('page-', '')}` === hash) {
           page.classList.add('active');
-          found = true;
-        } else if (hash === '#dashboard' && page.id === 'page-dashboard') {
-          page.classList.add('active');
-          found = true;
         } else {
           page.classList.remove('active');
         }
       });
 
-      // Fallback to dashboard if hash is invalid
-      if (!found) {
+      // Fallback ke dashboard jika tidak ditemukan
+      const anyActive = document.querySelector('.page-view.active');
+      if (!anyActive) {
         document.getElementById('page-dashboard').classList.add('active');
-        window.history.replaceState(null, null, ' '); // remove invalid hash
+        window.history.replaceState(null, null, ' ');
       }
 
-      window.scrollTo(0, 0);
+      // Scroll ke anchor jika ada (contoh: #kontak scroll ke footer)
+      setTimeout(() => {
+        if (hash === '#kontak') {
+          document.querySelector('footer')?.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          window.scrollTo(0, 0);
+        }
+      }, 50);
     }
 
     window.addEventListener('hashchange', handleRouting);
@@ -671,23 +774,23 @@
 
     // Array memuat SEMUA foto yang diunggah
     const galleryImages = [
-      "images/KKN-PPM-UGM_Periode2_2026-LandscapePemandanganPiaynemo.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-ArtefakGua1.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-ArtefakGua2.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-ArtefakGua3.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-ArtefakGua4.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-DanauTerbesarDiPulauFam.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-DockKapalPiaynemo.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-KoordinasiPemetaanDanPemasanganPetaSaukabuAtauPulauFam.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-KunjunganTimKKNKePiaynemo1.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-KunjunganTimKKNKePiaynemo2.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-PenyambutanDiDesaPam.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-PenyerahanMahasiswaDariDosenPembimbingLapanganKeDesaSaukabu.jpg",
-      "images/KKN-PPM-UGM_Periode2_2026-PerayaanUlangTahunSaukabuKe26-1.jpg",
-      "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-EclectusRoratus.jpeg",
-      "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-GeoffroyusGeoffroyi.jpeg",
-      "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-PtilinopusRivoli-WalikDadaPutih.jpeg",
-      "images/InventarisBurung/KKN-PPM-UGM_Periode2_2026-RhipiduraLeucophrys.jpeg"
+      "images/galeri/PemandanganPiaynemo.jpg",
+      "images/galeri/ArtefakGua1.jpg",
+      "images/galeri/ArtefakGua2.jpg",
+      "images/galeri/ArtefakGua3.jpg",
+      "images/galeri/ArtefakGua4.jpg",
+      "images/galeri/DanauPulauFam.jpg",
+      "images/galeri/DockPiaynemo.jpg",
+      "images/kegiatan/KoordinasiPemetaan.jpg",
+      "images/kegiatan/KunjunganPiaynemo1.jpg",
+      "images/kegiatan/KunjunganPiaynemo2.jpg",
+      "images/kegiatan/PenyambutanDesaPam.jpg",
+      "images/kegiatan/PenyerahanMahasiswa.jpg",
+      "images/kegiatan/PerayaanHUT26.jpg",
+      "images/fauna/Eclectus_roratus.jpeg",
+      "images/fauna/Geoffroyus_geoffroyi.jpeg",
+      "images/fauna/Ptilinopus_rivoli.jpeg",
+      "images/fauna/Rhipidura_leucophrys.jpeg"
     ];
 
     const albumModal = document.getElementById('albumModal');
@@ -745,7 +848,7 @@
     function updateLightbox() {
       if (isAlbumMode) {
         let pageNum = currentIndex < 10 ? '0' + currentIndex : currentIndex;
-        albumImg.src = `images/BukuAlbumSaukabu_FIXED/Buku Album Saukabu-${pageNum}.png`;
+        albumImg.src = `images/buku_album/Buku_Album_Saukabu-${pageNum}.png`;
         pageIndicator.innerText = `${currentIndex} / ${totalAlbumPages}`;
       } else {
         albumImg.src = galleryImages[currentIndex];
