@@ -1,0 +1,19 @@
+# File kerja Python (tidak perlu di website)
+*.py
+*.xlsx
+*.docx
+*.txt
+
+# File PDF besar — kecuali yang dibutuhkan website
+# Uncomment baris di bawah jika PDF Flora mau ikut diupload (file besar 23MB)
+# Ensiklopedia_Flora_Saukabu*.pdf
+
+# Folder admin Netlify (tidak dipakai lagi)
+admin/
+
+# Folder & file temp
+__pycache__/
+*.pyc
+.env
+.DS_Store
+Thumbs.db
